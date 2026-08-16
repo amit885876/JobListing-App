@@ -1,0 +1,29 @@
+name: Visa Job Radar
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+permissions:
+  contents: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r visa-job-radar/requirements.txt
+      - run: python -m app.run
+        working-directory: visa-job-radar
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - run: python -m app.dashboard
+        working-directory: visa-job-radar
+      - run: |
+          git config user.name 'visa-job-radar[bot]'
+          git config user.email 'visa-job-radar[bot]@users.noreply.github.com'
+          git add visa-job-radar/data/jobs.json visa-job-radar/dashboard/index.html
+          git diff --cached --quiet || git commit -m 'chore: update visa job radar'
+          git push
