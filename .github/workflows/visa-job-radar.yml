@@ -32,5 +32,10 @@ jobs:
           git config user.name 'visa-job-radar[bot]'
           git config user.email 'visa-job-radar[bot]@users.noreply.github.com'
           git add jobs.json visa-job-radar/data/jobs.json visa-job-radar/dashboard/index.html visa-job-radar-dashboard.html
-          git diff --cached --quiet || git commit -m 'chore: update visa job radar'
-          git push
+          if git diff --cached --quiet; then
+            echo 'No data changes.'
+          else
+            git commit -m 'chore: update visa job radar'
+            git pull --rebase origin main
+            git push
+          fi
