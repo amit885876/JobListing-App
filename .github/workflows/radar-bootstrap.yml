@@ -1,7 +1,5 @@
 name: Visa Job Radar Bootstrap
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,12 +20,13 @@ jobs:
         run: python -m app.dashboard
       - name: Publish updated data
         run: |
+          cp visa-job-radar/data/jobs.json jobs.json
           git config user.name 'visa-job-radar[bot]'
           git config user.email 'visa-job-radar[bot]@users.noreply.github.com'
-          git add visa-job-radar/data/jobs.json visa-job-radar/dashboard/index.html
+          git add jobs.json visa-job-radar/data/jobs.json visa-job-radar/dashboard/index.html
           if git diff --cached --quiet; then
             echo 'No data changes.'
           else
-            git commit -m 'chore: update visa job radar data'
+            git commit -m 'chore: bootstrap visa job radar data'
             git push
           fi
