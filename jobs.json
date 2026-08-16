@@ -1,41 +1,11 @@
 [
   {
-    "company": "Stream",
-    "title": "Backend Software Engineer (Python/Django)",
-    "location": "Amsterdam, Netherlands 🇳🇱",
-    "url": "https://getstream.io/careers/job/5475811003/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.916477+00:00",
-    "dedupe_key": "6578eb3f4b85a3b30708",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 45,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, Go, C, C++, Backend",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "MAYBE",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.114504+00:00"
-  },
-  {
     "company": "Huspy",
     "title": "Software Development Engineer - Backend",
     "location": "Dubai, United Arab Emirates 🇦🇪",
     "url": "https://boards.eu.greenhouse.io/huspy/jobs/4145041101",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.904424+00:00",
+    "last_seen": "2026-08-16T21:03:20.125640+00:00",
     "dedupe_key": "3b07de71c336b2a90a62",
     "experience": {
       "value": null,
@@ -46,11 +16,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 43,
-      "confidence": 0.72,
+      "score": 38,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Target location",
         "Experience unknown; retained",
         "Visa unknown; retained"
@@ -61,43 +31,12 @@
     "first_seen": "2026-08-16T20:53:47.093856+00:00"
   },
   {
-    "company": "**[ID.me](https://play.google.com)**",
-    "title": "**[Software Quality Assurance Engineer](https://jobr.pro/job/41511559/software-quality-assurance-engineer?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Mountain View, California, United States",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.963440+00:00",
-    "dedupe_key": "6338ecdf7946d70efa4a",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 43,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Go, C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.228137+00:00"
-  },
-  {
     "company": "GlobalLogic",
     "title": "Junior Backend Engineer",
     "location": "Bucharest , Romania 🇷🇴",
     "url": "https://www.globallogic.com/careers/junior-backend-engineer-scala-irc178382",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.904682+00:00",
+    "last_seen": "2026-08-16T21:03:20.126293+00:00",
     "dedupe_key": "590c478072b14ec6a48b",
     "experience": {
       "value": 0,
@@ -108,11 +47,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 43,
-      "confidence": 0.72,
+      "score": 38,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience compatible",
         "Visa unknown; retained"
       ]
@@ -127,7 +66,7 @@
     "location": "Dublin, Ireland 🇮🇪",
     "url": "https://careers.ryanair.com/search/#apply/4850053BAA",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.917885+00:00",
+    "last_seen": "2026-08-16T21:03:20.154409+00:00",
     "dedupe_key": "dc8a90ed7bab744cd185",
     "experience": {
       "value": null,
@@ -138,11 +77,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 43,
-      "confidence": 0.72,
+      "score": 38,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Target location",
         "Experience unknown; retained",
         "Visa unknown; retained"
@@ -153,43 +92,13 @@
     "first_seen": "2026-08-16T20:53:47.117513+00:00"
   },
   {
-    "company": "FINN",
-    "title": "(Senior) Backend Engineer (Python, AWS)",
-    "location": "MUNICH, Germany 🇩🇪",
-    "url": "https://jobs.lever.co/finn.auto/a1f6e4ff-6518-4a5a-bc70-dddb74c4c3b7",
+    "company": "Stream",
+    "title": "Backend Software Engineer (Python/Django)",
+    "location": "Amsterdam, Netherlands 🇳🇱",
+    "url": "https://getstream.io/careers/job/5475811003/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.884627+00:00",
-    "dedupe_key": "24f35e3c6f57936cf970",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 42,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, C, C++, Backend",
-        "Cloud/infra supporting match",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.058400+00:00"
-  },
-  {
-    "company": "**[Encora](https://encora.com)**",
-    "title": "**[Sr Software Engineer Mexico (React, Python, Typescript, Elixir)](https://jobr.pro/job/41515865/sr-software-engineer-mexico-react-python-typescript-elixir?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Hermosillo; Mexico; Mexico City",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.958461+00:00",
-    "dedupe_key": "32d3635e9e1485ab8fe3",
+    "last_seen": "2026-08-16T21:03:20.151011+00:00",
+    "dedupe_key": "6578eb3f4b85a3b30708",
     "experience": {
       "value": null,
       "confidence": "unknown"
@@ -199,18 +108,18 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.6,
+      "score": 35,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: Python, TypeScript, C, C++",
+        "Skills: Python, Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.217654+00:00"
+    "first_seen": "2026-08-16T20:53:47.114504+00:00"
   },
   {
     "company": "Tactile Games",
@@ -218,7 +127,7 @@
     "location": "Copenhagen, Denmark 🇩🇰",
     "url": "https://jobs.lever.co/tactilegames/b0c3b4da-99c4-42a1-a02e-25cd4554b4e3",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.923900+00:00",
+    "last_seen": "2026-08-16T21:03:20.167859+00:00",
     "dedupe_key": "eeaea4214d86a9f7fcf4",
     "experience": {
       "value": null,
@@ -229,11 +138,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.72,
+      "score": 35,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: TypeScript, C, C++, Backend",
+        "Skills: TypeScript, Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -248,7 +157,7 @@
     "location": "India",
     "url": "",
     "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.961479+00:00",
+    "last_seen": "2026-08-16T21:03:07.212263+00:00",
     "dedupe_key": "a7bdf08fcb07a2f10737",
     "experience": {
       "value": null,
@@ -259,11 +168,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.72,
+      "score": 35,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: Python, C, C++, Backend",
+        "Skills: Python, Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -273,12 +182,43 @@
     "first_seen": "2026-08-16T20:53:47.224122+00:00"
   },
   {
+    "company": "FINN",
+    "title": "(Senior) Backend Engineer (Python, AWS)",
+    "location": "MUNICH, Germany 🇩🇪",
+    "url": "https://jobs.lever.co/finn.auto/a1f6e4ff-6518-4a5a-bc70-dddb74c4c3b7",
+    "source": "lamiiine_visa_jobs",
+    "last_seen": "2026-08-16T21:03:20.076840+00:00",
+    "dedupe_key": "24f35e3c6f57936cf970",
+    "experience": {
+      "value": 4,
+      "confidence": "inferred"
+    },
+    "visa": {
+      "status": "unknown",
+      "confidence": 0
+    },
+    "match": {
+      "score": 32,
+      "confidence": 0.78,
+      "reasons": [
+        "Backend-focused role",
+        "Skills: Python, Backend",
+        "Cloud/infra supporting match",
+        "Slightly above target experience",
+        "Visa unknown; retained"
+      ]
+    },
+    "decision": "LOW",
+    "status": "new",
+    "first_seen": "2026-08-16T20:53:47.058400+00:00"
+  },
+  {
     "company": "Zalando SE",
     "title": "Senior Backend Engineer (Java/Kotlin) - Transport Technology (B2B) (all genders)",
     "location": "Berlin, Germany 🇩🇪",
     "url": "https://jobs.zalando.com/en/jobs/4841454-senior-backend-engineer-java-kotlin-transport-technology-b2b-all-genders/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.893393+00:00",
+    "last_seen": "2026-08-16T21:03:20.102241+00:00",
     "dedupe_key": "b39bf92afb42b737517b",
     "experience": {
       "value": 4,
@@ -289,11 +229,12 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: Java, C, C++, Backend",
+        "Skills: Java, Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
@@ -307,7 +248,7 @@
     "location": "Hamburg, Germany 🇩🇪",
     "url": "https://adjoe.io/career/?j_id=c52bb5b5-60d9-4f0f-8a1a-e8654f9e9be2",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.892824+00:00",
+    "last_seen": "2026-08-16T21:03:20.100829+00:00",
     "dedupe_key": "2be35998ca116ac79628",
     "experience": {
       "value": 4,
@@ -318,11 +259,12 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: Java, C, C++, Backend",
+        "Skills: Java, Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
@@ -336,7 +278,7 @@
     "location": "Hamburg, Germany 🇩🇪",
     "url": "https://adjoe.io/career/?j_id=8d25a019-7ef0-4dbe-b0da-5e792e9bebf6",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.892492+00:00",
+    "last_seen": "2026-08-16T21:03:20.100000+00:00",
     "dedupe_key": "11b25f1ef3cde1f9c7c1",
     "experience": {
       "value": 4,
@@ -347,11 +289,12 @@
       "confidence": 0
     },
     "match": {
-      "score": 40,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: Go, C, C++, Backend",
+        "Skills: Go, Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
@@ -360,498 +303,12 @@
     "first_seen": "2026-08-16T20:53:47.072217+00:00"
   },
   {
-    "company": "Huspy",
-    "title": "Software Development Engineer - Fullstack",
-    "location": "Dubai, United Arab Emirates 🇦🇪",
-    "url": "https://boards.eu.greenhouse.io/huspy/jobs/4145043101",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.904205+00:00",
-    "dedupe_key": "c0a1cc8e62daeb375b93",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.093626+00:00"
-  },
-  {
-    "company": "LandSolutions Inc",
-    "title": "Software Engineer",
-    "location": "Calgary, Canada 🇨🇦",
-    "url": "https://landsolutions.applicantpro.com/jobs/2758187.html",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.910913+00:00",
-    "dedupe_key": "7fa2da7de5dae5bb59da",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.105403+00:00"
-  },
-  {
-    "company": "**[VIVIO Health](https://myvivio.com)**",
-    "title": "**[Manager, Software Engineering](https://jobr.pro/job/41518394/manager-software-engineering?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Hayward, California, United States",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.958069+00:00",
-    "dedupe_key": "0893f0e6287dc07524bf",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.216666+00:00"
-  },
-  {
-    "company": "**[Baton (A Ryder Technology Lab)](https://baton.com)**",
-    "title": "**[Software Engineer - Data Platform](https://jobr.pro/job/41512699/software-engineer-data-platform?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "San Francisco, California, United States",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.962519+00:00",
-    "dedupe_key": "404112e04a46b9f1e8b0",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.226570+00:00"
-  },
-  {
-    "company": "**[Synctera](https://www.synctera.com)**",
-    "title": "**[Sr. Software Engineer](https://jobr.pro/job/41516886/sr-software-engineer?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "United States (Remote)",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.965102+00:00",
-    "dedupe_key": "a6b53d6160fbdb80d620",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.231594+00:00"
-  },
-  {
-    "company": "**[Upstart](https://careers.upstart.com)**",
-    "title": "**[Sr Software Engineer - Lending Platform](https://jobr.pro/job/41513745/sr-software-engineer-lending-platform?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "United States \\",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.968675+00:00",
-    "dedupe_key": "d5cc26efc6256fe12547",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.239068+00:00"
-  },
-  {
-    "company": "GMV",
-    "title": "Junior software engineer (development and AI)",
-    "location": "Tres Cantos,Madrid, Spain 🇪🇸",
-    "url": "https://gmv.csod.com/ux/ats/careersite/4/home/requisition/1793?c=gmv&lang=en-US",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.922798+00:00",
-    "dedupe_key": "9dc59e686a3b345fb8d9",
-    "experience": {
-      "value": 0,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience compatible",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.125905+00:00"
-  },
-  {
-    "company": "**[Upstart](https://careers.upstart.com)**",
-    "title": "**[Senior Software Engineer, White Label Platform](https://jobr.pro/job/41513743/senior-software-engineer-white-label-platform?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "United States \\",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.966491+00:00",
-    "dedupe_key": "e5e129e12aa9ddcf38b9",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.234713+00:00"
-  },
-  {
-    "company": "**[DriveWealth](https://drivewealth.com)**",
-    "title": "**[Senior Software Engineer, Full Stack](https://jobr.pro/job/41517973/senior-software-engineer-full-stack?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York, New York, United States",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.967728+00:00",
-    "dedupe_key": "59fa88d87ff49051ba16",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.237142+00:00"
-  },
-  {
-    "company": "**[Patch My PC](https://patchmypc.com)**",
-    "title": "**[Senior Software Engineer, FullStack](https://jobr.pro/job/41509498/senior-software-engineer-fullstack?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "United States",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.968967+00:00",
-    "dedupe_key": "44308deadf0f5175edc9",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 38,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Target location",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.239532+00:00"
-  },
-  {
-    "company": "Jus Mundi",
-    "title": "Software Engineer (Node.js/Vue.js)",
-    "location": "Paris, France 🇫🇷",
-    "url": "https://www.welcometothejungle.com/en/companies/jus-mundi/jobs/software-engineer-node-js-vue-js_paris",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.885678+00:00",
-    "dedupe_key": "f1a734927d91cdf01b5a",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Node.js",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.059698+00:00"
-  },
-  {
-    "company": "Picnic",
-    "title": "Software Engineer (Python)",
-    "location": "Amsterdam, Netherlands 🇳🇱",
-    "url": "https://picnic.app/careers/jobs/1825473/technology--amp--engineering/amsterdam-north-holland-netherlands/software-engineer--python-",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.896234+00:00",
-    "dedupe_key": "d5e90eb0142f2668e205",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.079503+00:00"
-  },
-  {
-    "company": "Conectum",
-    "title": "JAVA Software Engineer",
-    "location": "Wolfsburg, Germany 🇩🇪",
-    "url": "https://conectum.catsone.com/careers/8321-General/jobs/9409025-JAVA-Software-Engineer",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.915711+00:00",
-    "dedupe_key": "0dbd981e70aa901253f6",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Java, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.113433+00:00"
-  },
-  {
-    "company": "gridX",
-    "title": "Python Software Engineer (M/F/X)",
-    "location": "Aachen & München, Germany 🇩🇪",
-    "url": "https://gridx.jobs.personio.de/job/1051749?display=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.926010+00:00",
-    "dedupe_key": "5dbb79a5f3f832413935",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.131781+00:00"
-  },
-  {
-    "company": "**[M&T Bank](https://www3.mtb.com/)**",
-    "title": "Software Engineer - Java",
-    "location": "Buffalo, NY",
-    "url": "https://mtb.wd5.myworkdayjobs.com/MTB/job/Buffalo-NY/Software-Engineer---Java_R69189",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.956591+00:00",
-    "dedupe_key": "b1d4cdf0ffdec7858977",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Java, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.214147+00:00"
-  },
-  {
-    "company": "**[Activate Interactive Pte Ltd](https://www.activate.sg)**",
-    "title": "**[Full Stack Software Engineer (NodeJS, Typescript) - A26183](https://jobr.pro/job/41518447/full-stack-software-engineer-nodejs-typescript-a26183?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Singapore, Singapore, Singapore",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.960576+00:00",
-    "dedupe_key": "eadcc1616373eb4c86c0",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: TypeScript, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.222598+00:00"
-  },
-  {
     "company": "Monzo",
     "title": "Backend Engineer, Security Tooling",
     "location": "London , UK 🇬🇧",
     "url": "https://boards.greenhouse.io/monzo/jobs/4983747",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.882317+00:00",
+    "last_seen": "2026-08-16T21:03:20.071863+00:00",
     "dedupe_key": "4d729449636cde8a8940",
     "experience": {
       "value": null,
@@ -862,11 +319,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -881,7 +338,7 @@
     "location": "London , UK 🇬🇧",
     "url": "https://boards.greenhouse.io/monzo/jobs/5003076",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.882532+00:00",
+    "last_seen": "2026-08-16T21:03:20.072369+00:00",
     "dedupe_key": "350c66bf9589dddc40fc",
     "experience": {
       "value": null,
@@ -892,11 +349,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -911,7 +368,7 @@
     "location": "London , UK 🇬🇧",
     "url": "https://boards.greenhouse.io/monzo/jobs/2282245",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.882734+00:00",
+    "last_seen": "2026-08-16T21:03:20.072933+00:00",
     "dedupe_key": "d7878b38a2a8ee1114d8",
     "experience": {
       "value": null,
@@ -922,11 +379,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -941,7 +398,7 @@
     "location": "Cologne, Germany 🇩🇪",
     "url": "https://kaufland-ecommerce.com/en/job/backend-engineer-f-m-d-search-experience/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.903250+00:00",
+    "last_seen": "2026-08-16T21:03:20.123620+00:00",
     "dedupe_key": "46cb85ae0cd649c8de3b",
     "experience": {
       "value": null,
@@ -952,11 +409,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -971,7 +428,7 @@
     "location": "Berlin, Germany 🇩🇪",
     "url": "https://www.getyourguide.careers/jobs/2464807",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.908080+00:00",
+    "last_seen": "2026-08-16T21:03:20.133862+00:00",
     "dedupe_key": "6f0b5bfae5355fbf227c",
     "experience": {
       "value": null,
@@ -982,11 +439,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1001,7 +458,7 @@
     "location": "Stockholm, Sweden 🇸🇪",
     "url": "https://www.truecaller.com/careers/jobs/4846393",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.912788+00:00",
+    "last_seen": "2026-08-16T21:03:20.143505+00:00",
     "dedupe_key": "778961be95b6e01acfda",
     "experience": {
       "value": null,
@@ -1012,11 +469,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1031,7 +488,7 @@
     "location": "Volos, Thessalia, Greece 🇬🇷",
     "url": "https://apply.workable.com/centaur-analytics-inc/j/0C2BC3C116/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.919720+00:00",
+    "last_seen": "2026-08-16T21:03:20.158253+00:00",
     "dedupe_key": "731a336f655e8fe84419",
     "experience": {
       "value": null,
@@ -1042,11 +499,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1061,7 +518,7 @@
     "location": "Barcelona, Spain 🇪🇸",
     "url": "https://jobs.lever.co/backmarket/ad0b50fd-2799-4351-baee-03a0c03309a3",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.922032+00:00",
+    "last_seen": "2026-08-16T21:03:20.163779+00:00",
     "dedupe_key": "3b5eed3d489e5f533908",
     "experience": {
       "value": null,
@@ -1072,11 +529,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1091,7 +548,7 @@
     "location": "Barcelona, Spain 🇪🇸",
     "url": "https://jobs.lever.co/backmarket/6ce9b86b-802a-4d63-8dc0-4ec332806fbf",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.922246+00:00",
+    "last_seen": "2026-08-16T21:03:20.164301+00:00",
     "dedupe_key": "8e0cd27ad7952ee72337",
     "experience": {
       "value": null,
@@ -1102,11 +559,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1116,303 +573,12 @@
     "first_seen": "2026-08-16T20:53:47.124950+00:00"
   },
   {
-    "company": "**[Shield AI](https://shield.ai)**",
-    "title": "**[Manager, Engineering - Software Integration (R5237)](https://jobr.pro/job/41518824/manager-engineering-software-integration-r5237?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "San Diego, California",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.959189+00:00",
-    "dedupe_key": "16be7301dc356ea4430d",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Go, C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.219482+00:00"
-  },
-  {
-    "company": "TOPIC Embedded Systems",
-    "title": "Senior Software Engineer C++/Python/C",
-    "location": "Amsterdam, Netherlands 🇳🇱",
-    "url": "https://www.tecnoempleo.com/senior-software-engineer-c-python-c-brabante-septe/c-python-c-c/rf-698f18f9d296b30a844f?lang=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.906883+00:00",
-    "dedupe_key": "a68216dcf8bb12edc45f",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.098283+00:00"
-  },
-  {
-    "company": "Monzo",
-    "title": "Senior Backend Engineer, Security Tooling",
-    "location": "London , UK 🇬🇧",
-    "url": "https://boards.greenhouse.io/monzo/jobs/4978305",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.881740+00:00",
-    "dedupe_key": "5593a3fdce011498d5ad",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.054087+00:00"
-  },
-  {
-    "company": "FINN",
-    "title": "Senior Backend Engineer (NodeJS)",
-    "location": "MUNICH, Germany 🇩🇪",
-    "url": "https://jobs.lever.co/finn.auto/b836774d-7a7c-4660-909e-ea6bf0a99247",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.884912+00:00",
-    "dedupe_key": "e56679692ee7bbbfcb87",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.058638+00:00"
-  },
-  {
-    "company": "N26",
-    "title": "Senior Backend Engineer - FCP & ID",
-    "location": "Barcelona, Spain 🇪🇸",
-    "url": "https://n26.com/en/careers/positions/4957140",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.888732+00:00",
-    "dedupe_key": "56bfee58dcfd5d8df179",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.065780+00:00"
-  },
-  {
-    "company": "Forto",
-    "title": "Senior Backend Engineer (f/m/d) – Account Master Data",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://careers.forto.com/jobs/fortogmbh/senior-backend-engineer-f-m-d-account-master-data/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.889933+00:00",
-    "dedupe_key": "19d056ffffab07b3fb57",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.068226+00:00"
-  },
-  {
-    "company": "Bolt",
-    "title": "Senior Software Engineer, Backend",
-    "location": "Bucharest, Romania 🇷🇴",
-    "url": "https://bolt.eu/en/careers/positions/4896758002/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.894824+00:00",
-    "dedupe_key": "4154ee9660ade7e1a6ab",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.076893+00:00"
-  },
-  {
-    "company": "Wooga",
-    "title": "(Senior) Backend Engineer - Elixir",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://boards.greenhouse.io/wooga/jobs/4762536?gh_src=4b9516c81us",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.920781+00:00",
-    "dedupe_key": "7bfc7f0a11ba39806e36",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.122345+00:00"
-  },
-  {
-    "company": "Aignostics",
-    "title": "Senior Backend Software Engineer (f/m/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://aignostics.jobs.personio.de/job/809546?display=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.929757+00:00",
-    "dedupe_key": "2d0c9486d52fe9f2e48d",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++, Backend",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.138282+00:00"
-  },
-  {
-    "company": "**[Match Group](https://play.google.com)**",
-    "title": "**[Senior Software Engineer, Web (Tinder LLC, New York, New York)](https://jobr.pro/job/41513685/senior-software-engineer-web-tinder-llc-new-york-new-york?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York, New York",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.962848+00:00",
-    "dedupe_key": "2e861dd25c4e0463fbf5",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 35,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Go, C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.227149+00:00"
-  },
-  {
     "company": "Monzo",
     "title": "Backend Payments Engineer",
     "location": "London , UK 🇬🇧",
     "url": "https://boards.greenhouse.io/monzo/jobs/4975360",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.882099+00:00",
+    "last_seen": "2026-08-16T21:03:20.071341+00:00",
     "dedupe_key": "57c8b3fd598409830f26",
     "experience": {
       "value": null,
@@ -1423,11 +589,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1442,7 +608,7 @@
     "location": "Aachen & München, Germany 🇩🇪",
     "url": "https://gridx.jobs.personio.de/job/543653?display=en",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.887425+00:00",
+    "last_seen": "2026-08-16T21:03:20.082592+00:00",
     "dedupe_key": "1c3f39b5159b669541b8",
     "experience": {
       "value": null,
@@ -1453,11 +619,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1472,7 +638,7 @@
     "location": "Berlin, Germany 🇩🇪",
     "url": "https://wire.softgarden.io/job/29890947/Backend-Operations-Developer-m-f-d-",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.891025+00:00",
+    "last_seen": "2026-08-16T21:03:20.097173+00:00",
     "dedupe_key": "a301a0084d0e2daab4c1",
     "experience": {
       "value": null,
@@ -1483,11 +649,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1502,7 +668,7 @@
     "location": "Hamburg, Germany 🇩🇪",
     "url": "https://corporate.aboutyou.de/en/jobs/product-manager-backend-m-f-d",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.898327+00:00",
+    "last_seen": "2026-08-16T21:03:20.112471+00:00",
     "dedupe_key": "b9805708bf4fabe2a4d0",
     "experience": {
       "value": null,
@@ -1513,11 +679,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1532,7 +698,7 @@
     "location": "Berlin, Germany 🇩🇪",
     "url": "https://retraced.notion.site/Mid-NodeJS-backend-developer-d88c7d587732438a9a08446096df2430",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.900488+00:00",
+    "last_seen": "2026-08-16T21:03:20.117546+00:00",
     "dedupe_key": "a130a56017fc43cd57f4",
     "experience": {
       "value": null,
@@ -1543,11 +709,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1562,7 +728,7 @@
     "location": "Cologne, Germany 🇩🇪",
     "url": "https://kaufland-ecommerce.com/en/job/software-architect-backend-f-m-d/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.903029+00:00",
+    "last_seen": "2026-08-16T21:03:20.123073+00:00",
     "dedupe_key": "ce00868f1717677096a2",
     "experience": {
       "value": null,
@@ -1573,11 +739,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1592,7 +758,7 @@
     "location": "Hamburg, Germany 🇩🇪",
     "url": "https://www.gulp.de/gulp2/g/jobs/C00686362",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.905551+00:00",
+    "last_seen": "2026-08-16T21:03:20.128154+00:00",
     "dedupe_key": "6937e0a51bf18e70f287",
     "experience": {
       "value": null,
@@ -1603,11 +769,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 35,
-      "confidence": 0.72,
+      "score": 30,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
@@ -1617,43 +783,13 @@
     "first_seen": "2026-08-16T20:53:47.095701+00:00"
   },
   {
-    "company": "GUARDSQUARE",
-    "title": "Junior Java R&D Software Engineer - Leuven",
-    "location": "Leuven, Belgium 🇧🇪",
-    "url": "https://boards.greenhouse.io/guardsquare/jobs/270711",
+    "company": "Monzo",
+    "title": "Senior Backend Engineer, Security Tooling",
+    "location": "London , UK 🇬🇧",
+    "url": "https://boards.greenhouse.io/monzo/jobs/4978305",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.905236+00:00",
-    "dedupe_key": "b3ce74cffebd64ee43bc",
-    "experience": {
-      "value": 0,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 33,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Java",
-        "Experience compatible",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.095178+00:00"
-  },
-  {
-    "company": "navvis",
-    "title": "Senior Software Engineer - Cloud applications (AWS) (F/M/D)",
-    "location": "München, Germany 🇩🇪",
-    "url": "https://boards.eu.greenhouse.io/navvis/jobs/4130376101",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.896783+00:00",
-    "dedupe_key": "61073f0811ec03c4427b",
+    "last_seen": "2026-08-16T21:03:20.070570+00:00",
+    "dedupe_key": "5593a3fdce011498d5ad",
     "experience": {
       "value": 4,
       "confidence": "inferred"
@@ -1663,207 +799,207 @@
       "confidence": 0
     },
     "match": {
-      "score": 32,
-      "confidence": 0.6,
+      "score": 25,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
-        "Cloud/infra supporting match",
+        "Skills: Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.080413+00:00"
+    "first_seen": "2026-08-16T20:53:47.054087+00:00"
   },
   {
-    "company": "finleap connect",
-    "title": "(Associate) Software Engineer - Open Banking (all genders)",
+    "company": "FINN",
+    "title": "Senior Backend Engineer (NodeJS)",
+    "location": "MUNICH, Germany 🇩🇪",
+    "url": "https://jobs.lever.co/finn.auto/b836774d-7a7c-4660-909e-ea6bf0a99247",
+    "source": "lamiiine_visa_jobs",
+    "last_seen": "2026-08-16T21:03:20.077347+00:00",
+    "dedupe_key": "e56679692ee7bbbfcb87",
+    "experience": {
+      "value": 4,
+      "confidence": "inferred"
+    },
+    "visa": {
+      "status": "unknown",
+      "confidence": 0
+    },
+    "match": {
+      "score": 25,
+      "confidence": 0.78,
+      "reasons": [
+        "Backend-focused role",
+        "Skills: Backend",
+        "Slightly above target experience",
+        "Visa unknown; retained"
+      ]
+    },
+    "decision": "LOW",
+    "status": "new",
+    "first_seen": "2026-08-16T20:53:47.058638+00:00"
+  },
+  {
+    "company": "N26",
+    "title": "Senior Backend Engineer - FCP & ID",
+    "location": "Barcelona, Spain 🇪🇸",
+    "url": "https://n26.com/en/careers/positions/4957140",
+    "source": "lamiiine_visa_jobs",
+    "last_seen": "2026-08-16T21:03:20.086693+00:00",
+    "dedupe_key": "56bfee58dcfd5d8df179",
+    "experience": {
+      "value": 4,
+      "confidence": "inferred"
+    },
+    "visa": {
+      "status": "unknown",
+      "confidence": 0
+    },
+    "match": {
+      "score": 25,
+      "confidence": 0.78,
+      "reasons": [
+        "Backend-focused role",
+        "Skills: Backend",
+        "Slightly above target experience",
+        "Visa unknown; retained"
+      ]
+    },
+    "decision": "LOW",
+    "status": "new",
+    "first_seen": "2026-08-16T20:53:47.065780+00:00"
+  },
+  {
+    "company": "Forto",
+    "title": "Senior Backend Engineer (f/m/d) – Account Master Data",
     "location": "Berlin, Germany 🇩🇪",
-    "url": "https://finleapconnect.jobs.personio.com/job/1036938?display=en",
+    "url": "https://careers.forto.com/jobs/fortogmbh/senior-backend-engineer-f-m-d-account-master-data/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.888399+00:00",
-    "dedupe_key": "3782f37cab204acc11d0",
+    "last_seen": "2026-08-16T21:03:20.092770+00:00",
+    "dedupe_key": "19d056ffffab07b3fb57",
     "experience": {
-      "value": null,
-      "confidence": "unknown"
+      "value": 4,
+      "confidence": "inferred"
     },
     "visa": {
       "status": "unknown",
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.6,
+      "score": 25,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
+        "Skills: Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.065323+00:00"
+    "first_seen": "2026-08-16T20:53:47.068226+00:00"
   },
   {
-    "company": "Kaufland.de",
-    "title": "Software Engineer (f/m/d)",
-    "location": "Cologne, Germany 🇩🇪",
-    "url": "https://kaufland-ecommerce.com/en/job/software-engineer-f-m-d/",
+    "company": "Bolt",
+    "title": "Senior Software Engineer, Backend",
+    "location": "Bucharest, Romania 🇷🇴",
+    "url": "https://bolt.eu/en/careers/positions/4896758002/",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.892170+00:00",
-    "dedupe_key": "5e1b558b7b0064341136",
+    "last_seen": "2026-08-16T21:03:20.105508+00:00",
+    "dedupe_key": "4154ee9660ade7e1a6ab",
     "experience": {
-      "value": null,
-      "confidence": "unknown"
+      "value": 4,
+      "confidence": "inferred"
     },
     "visa": {
       "status": "unknown",
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.6,
+      "score": 25,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
+        "Skills: Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.071787+00:00"
+    "first_seen": "2026-08-16T20:53:47.076893+00:00"
   },
   {
-    "company": "navvis",
-    "title": "Software Engineer (Cloud) (F/M/D)",
-    "location": "München, Germany 🇩🇪",
-    "url": "https://boards.eu.greenhouse.io/navvis/jobs/4138330101",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.897243+00:00",
-    "dedupe_key": "0c76b6ccd4e9430e9424",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.081137+00:00"
-  },
-  {
-    "company": "About you",
-    "title": "Full Stack Software Engineer (m/f/d)",
-    "location": "Lüneburg, Germany 🇩🇪",
-    "url": "https://corporate.aboutyou.de/en/jobs/full-stack-software-engineer-m-f-d",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.898008+00:00",
-    "dedupe_key": "0e57ce22ba30774e32e5",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.082731+00:00"
-  },
-  {
-    "company": "Scout24",
-    "title": "Software Engineer - Cloud Infrastructure & Reliability (d/w/m)",
+    "company": "Wooga",
+    "title": "(Senior) Backend Engineer - Elixir",
     "location": "Berlin, Germany 🇩🇪",
-    "url": "https://www.scout24.com/en/career/jobs/engineering/software-engineer-cloud-infrastructure-reliability-d-w-m-4974203",
+    "url": "https://boards.greenhouse.io/wooga/jobs/4762536?gh_src=4b9516c81us",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.901053+00:00",
-    "dedupe_key": "694d248fe3d4c756448c",
+    "last_seen": "2026-08-16T21:03:20.160766+00:00",
+    "dedupe_key": "7bfc7f0a11ba39806e36",
     "experience": {
-      "value": null,
-      "confidence": "unknown"
+      "value": 4,
+      "confidence": "inferred"
     },
     "visa": {
       "status": "unknown",
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.6,
+      "score": 25,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
+        "Skills: Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.088381+00:00"
+    "first_seen": "2026-08-16T20:53:47.122345+00:00"
   },
   {
-    "company": "MBition",
-    "title": "C/C++ Software Engineer for Vehicle Abstraction Layer Development (All genders)",
+    "company": "Aignostics",
+    "title": "Senior Backend Software Engineer (f/m/d)",
     "location": "Berlin, Germany 🇩🇪",
-    "url": "https://mbition.io/jobs/?job=1000281",
+    "url": "https://aignostics.jobs.personio.de/job/809546?display=en",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.903492+00:00",
-    "dedupe_key": "96e506f801d28b690168",
+    "last_seen": "2026-08-16T21:03:20.179742+00:00",
+    "dedupe_key": "2d0c9486d52fe9f2e48d",
     "experience": {
-      "value": null,
-      "confidence": "unknown"
+      "value": 4,
+      "confidence": "inferred"
     },
     "visa": {
       "status": "unknown",
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.6,
+      "score": 25,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
+        "Skills: Backend",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.092715+00:00"
+    "first_seen": "2026-08-16T20:53:47.138282+00:00"
   },
   {
-    "company": "Conectum",
-    "title": ".NET Software Engineer",
-    "location": "Wolfsburg, Germany 🇩🇪",
-    "url": "https://conectum.catsone.com/careers/8321-General/jobs/9410888-NET-Software-Engineer",
+    "company": "Jus Mundi",
+    "title": "Software Engineer (Node.js/Vue.js)",
+    "location": "Paris, France 🇫🇷",
+    "url": "https://www.welcometothejungle.com/en/companies/jus-mundi/jobs/software-engineer-node-js-vue-js_paris",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.915501+00:00",
-    "dedupe_key": "48c453d22db52a3422c4",
+    "last_seen": "2026-08-16T21:03:20.078737+00:00",
+    "dedupe_key": "f1a734927d91cdf01b5a",
     "experience": {
       "value": null,
       "confidence": "unknown"
@@ -1873,1673 +1009,18 @@
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.6,
+      "score": 23,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
+        "Skills: Node.js",
         "Experience unknown; retained",
         "Visa unknown; retained"
       ]
     },
     "decision": "LOW",
     "status": "new",
-    "first_seen": "2026-08-16T20:53:47.113237+00:00"
-  },
-  {
-    "company": "Conectum",
-    "title": "Software Development Engineer (m/w/d)",
-    "location": "Bamberg, Germany 🇩🇪",
-    "url": "https://conectum.catsone.com/careers/8321-General/jobs/12753859-Software-Development-Engineer-mwd",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.915939+00:00",
-    "dedupe_key": "570bff898f25da668584",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.113676+00:00"
-  },
-  {
-    "company": "Centaur Analytics, Inc.",
-    "title": "Full Stack Software Engineer",
-    "location": "Athens, Greece 🇬🇷",
-    "url": "https://apply.workable.com/centaur-analytics-inc/j/2B0A99E709/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.919277+00:00",
-    "dedupe_key": "550d617e1eeb8bf33d5d",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.120174+00:00"
-  },
-  {
-    "company": "Centaur Analytics, Inc.",
-    "title": "Front End Software Engineer",
-    "location": "Volos, Thessalia, Greece 🇬🇷",
-    "url": "https://apply.workable.com/centaur-analytics-inc/j/1C0236E986/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.919500+00:00",
-    "dedupe_key": "7df488864ea7f76c0f24",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.120406+00:00"
-  },
-  {
-    "company": "Nexthink",
-    "title": "Software Engineer (Full-Stack)",
-    "location": "Madrid, Spain 🇪🇸",
-    "url": "https://www.smartrecruiters.com/Nexthink/743999837199755",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.926338+00:00",
-    "dedupe_key": "dfb002702656027038b7",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.132217+00:00"
-  },
-  {
-    "company": "Nexxiot",
-    "title": "Frontend Software Engineer",
-    "location": "Zurich, Switzerland 🇨🇭",
-    "url": "https://boards.eu.greenhouse.io/nexxiot/jobs/4091552101?utm_source=swissdevjobs&utm_medium=cpc-swissdevjobs&utm_campaign=jobboard-swissdevjobs",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.929982+00:00",
-    "dedupe_key": "d3e184bdf6ac46a8b443",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.138482+00:00"
-  },
-  {
-    "company": "**[Anthropic](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66780de6a180151f6f5752b0)**",
-    "title": "Software Engineer, Billing",
-    "location": "New York, NY, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=6388840ee2e870ed019a227b14ee0f52",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.939112+00:00",
-    "dedupe_key": "b72191e6b90e58eac588",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.163386+00:00"
-  },
-  {
-    "company": "**[Anthropic](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66780de6a180151f6f5752b0)**",
-    "title": "Software Engineer, Data Ingestion",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=00503fccb21e48733a408f1005bb42e9",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.939887+00:00",
-    "dedupe_key": "60b49445b6d14c198d40",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.165715+00:00"
-  },
-  {
-    "company": "**[ProjectFitter](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6753cf7463a1ca79690c2c6d)**",
-    "title": "Founding Software Engineer (growth to a CTO)",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=452992eb02143d86fac62a4b0391a02f",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.940833+00:00",
-    "dedupe_key": "870cc0a7c41193c52c0c",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.167966+00:00"
-  },
-  {
-    "company": "**[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Embedded Software Engineer, Vision Pipelines",
-    "location": "Palo Alto, California, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=c94f23edc591e4aca18494b7cea15d0f",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.943065+00:00",
-    "dedupe_key": "d724ada80ef74b44096c",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.175624+00:00"
-  },
-  {
-    "company": "[](#00002) **[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Software Engineer II, Perception State Estimation",
-    "location": "Dearborn, Michigan, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=099557d442af2fe98982eec508c1be1c",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.944948+00:00",
-    "dedupe_key": "9d04c49e3eea325128c0",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.182243+00:00"
-  },
-  {
-    "company": "**[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Software Engineer II, Labeling",
-    "location": "Pittsburgh, Pennsylvania, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=65dbcda395714e2dafb8942961358e8d",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.945825+00:00",
-    "dedupe_key": "89a5a45e3433dbc14db7",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.184464+00:00"
-  },
-  {
-    "company": "**[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Software Engineer II, Open World Perception",
-    "location": "US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=f8812aad322960b79879f6ec91aa1e15",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.947639+00:00",
-    "dedupe_key": "b19b3242d01b628ed10e",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.189615+00:00"
-  },
-  {
-    "company": "**[FutureHouse, Inc](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678118ba180151f6f5758fd)**",
-    "title": "Software Engineering Intern 2025",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=f73cd6d901ca427614e78a07294ee5e2",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.948661+00:00",
-    "dedupe_key": "06eba02bd033cc895126",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.192173+00:00"
-  },
-  {
-    "company": "**[Anthropic](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66780de6a180151f6f5752b0)**",
-    "title": "Software Engineer, Horizons",
-    "location": "Multiple Locations, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=2c5ee4428039efa894302c2c9a6c3605",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.949801+00:00",
-    "dedupe_key": "48227d798dba89745505",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.195734+00:00"
-  },
-  {
-    "company": "**[Anthropic](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66780de6a180151f6f5752b0)**",
-    "title": "Software Engineer, Employee Acceleration Tools",
-    "location": "Multiple Locations, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=d2c93e810418d42c89dd773e82620d61",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.950092+00:00",
-    "dedupe_key": "8561d01a8b9fecf70e73",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.196176+00:00"
-  },
-  {
-    "company": "**[Mistral AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66376b92be4d1c785fa47076)**",
-    "title": "Software Engineer, Full-stack",
-    "location": "Palo Alto, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=eba992661b6a0af3f5ff9d36fe5bcb5c",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.952359+00:00",
-    "dedupe_key": "c623a3ca10e5592c7f6f",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.203182+00:00"
-  },
-  {
-    "company": "**[Anthropic](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66780de6a180151f6f5752b0)**",
-    "title": "Software Engineer, Agents Infrastructure",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=69649b125aad3b33116573b639fc84c1",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.952897+00:00",
-    "dedupe_key": "dd6c6951ae19fb7bc931",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.204456+00:00"
-  },
-  {
-    "company": "**[Volley](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66781ad1a27e1440a552b93a)**",
-    "title": "Software Engineer, TV Games",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=669d421298f5ddd22e5cee450b53c962",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.954148+00:00",
-    "dedupe_key": "e6f1e2401e16ee79e36d",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.208300+00:00"
-  },
-  {
-    "company": "**[Hyperfine](https://hyperfine.io)**",
-    "title": "**[Software Engineer, Cloud](https://jobr.pro/job/41513859/software-engineer-cloud?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Palo Alto, CA - Hybrid",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.958889+00:00",
-    "dedupe_key": "cc6cd4df91024261f5a8",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.218998+00:00"
-  },
-  {
-    "company": "**[Rivian and Volkswagen Group Technologies](https://rivianvw.tech)**",
-    "title": "**[Sr. Software Engineer, Full-Stack (Factory Systems)](https://jobr.pro/job/41520043/sr-software-engineer-full-stack-factory-systems?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Palo Alto, California",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.959502+00:00",
-    "dedupe_key": "d94283c89cd390628c02",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.220030+00:00"
-  },
-  {
-    "company": "**[Activate Interactive Pte Ltd](https://www.activate.sg)**",
-    "title": "**[Software Quality Engineer - A26206](https://jobr.pro/job/41518454/software-quality-engineer-a26206?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Singapore, Singapore, Singapore",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.959970+00:00",
-    "dedupe_key": "c661ac0288d3ae233b9c",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.221576+00:00"
-  },
-  {
-    "company": "**[Activate Interactive Pte Ltd](https://www.activate.sg)**",
-    "title": "**[Software Engineer - A26186](https://jobr.pro/job/41518453/software-engineer-a26186?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Singapore, Singapore, Singapore",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.960261+00:00",
-    "dedupe_key": "5d7fb920bb801e845784",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.222037+00:00"
-  },
-  {
-    "company": "**[Activate Interactive Pte Ltd](https://www.activate.sg)**",
-    "title": "**[Software Quality Engineer - A26179](https://jobr.pro/job/41517290/software-quality-engineer-a26179?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Singapore, Singapore, Singapore",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.960877+00:00",
-    "dedupe_key": "1ceec8372ed282214290",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.223079+00:00"
-  },
-  {
-    "company": "**[Activate Interactive Pte Ltd](https://www.activate.sg)**",
-    "title": "**[Software Engineer (NodeJS) - A26102](https://jobr.pro/job/41517289/software-engineer-nodejs-a26102?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Singapore, Singapore, Singapore",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.961172+00:00",
-    "dedupe_key": "bee6a38e94f5f30e6461",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.223567+00:00"
-  },
-  {
-    "company": "**[Benchling](https://www.benchling.com)**",
-    "title": "**[Software Engineer, Full Stack, Developer Productivity](https://jobr.pro/job/41513785/software-engineer-full-stack-developer-productivity?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Boston, MA",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.962217+00:00",
-    "dedupe_key": "1019e5e4ec7769c838ba",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.226064+00:00"
-  },
-  {
-    "company": "**[Only External Postings](https://scoutify.com)**",
-    "title": "**[Software Engineer – Scientific Computing & AI](https://jobr.pro/job/41512765/software-engineer-scientific-computing-ai?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Remote",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.964209+00:00",
-    "dedupe_key": "7d6f3fcdf2e05386d9ce",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.230138+00:00"
-  },
-  {
-    "company": "**[Blueprint Technologies](https://bpcs.com)**",
-    "title": "**[Software Engineer – Scientific Computing & AI](https://jobr.pro/job/41512770/software-engineer-scientific-computing-ai?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Remote",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.964517+00:00",
-    "dedupe_key": "94126a9bd293cdf63183",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.230673+00:00"
-  },
-  {
-    "company": "**[Stripe](https://stripe.com)**",
-    "title": "**[Software Engineer, Product Security Data Platforms](https://jobr.pro/job/41512442/software-engineer-product-security-data-platforms?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Seattle",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.964811+00:00",
-    "dedupe_key": "7a9a9282ca993123a31a",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.231150+00:00"
-  },
-  {
-    "company": "**[Data Systems Analysts, Inc.]()**",
-    "title": "**[Software Engineer / Developer (DevSecOps / Full Stack)](https://jobr.pro/job/41515886/software-engineer-developer-devsecops-full-stack?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Charlottesville, VA",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.965898+00:00",
-    "dedupe_key": "458f0dc7434f9b4c45d2",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.233720+00:00"
-  },
-  {
-    "company": "**[Traba](https://traba.work)**",
-    "title": "**[Software Engineer (AI Agents)](https://jobr.pro/job/41520146/software-engineer-ai-agents?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York City, NY",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.966772+00:00",
-    "dedupe_key": "c6aee818ed9a73092aed",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.235161+00:00"
-  },
-  {
-    "company": "**[Scale AI](https://scale.com)**",
-    "title": "**[Software Engineer, Identity](https://jobr.pro/job/41513473/software-engineer-identity?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "San Francisco, CA; New York, NY",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.968098+00:00",
-    "dedupe_key": "f9489ed4160d2cc34c59",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.238103+00:00"
-  },
-  {
-    "company": "gridX",
-    "title": "Senior Software Engineer (M/F/D)",
-    "location": "Aachen & München, Germany 🇩🇪",
-    "url": "https://gridx.jobs.personio.de/job/631925?display=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.887101+00:00",
-    "dedupe_key": "6cbf872e1c575e7a55b9",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.062614+00:00"
-  },
-  {
-    "company": "Kaufland.de",
-    "title": "Senior Software Engineer (f/m/d)",
-    "location": "Cologne, Germany 🇩🇪",
-    "url": "https://kaufland-ecommerce.com/en/job/senior-software-engineer-f-m-d/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.891957+00:00",
-    "dedupe_key": "f2190082e63dbb22ba69",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.071578+00:00"
-  },
-  {
-    "company": "Twaice",
-    "title": "Senior Full Stack Software Engineer (m/f/d)",
-    "location": "München, Germany 🇩🇪",
-    "url": "https://twaice.jobs.personio.com/job/935606?display=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.895533+00:00",
-    "dedupe_key": "075b7583ed6170ef682c",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.078227+00:00"
-  },
-  {
-    "company": "Scout24",
-    "title": "Senior Software Engineer - Cloud Infrastructure & Reliability (d/w/m)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://www.scout24.com/en/career/jobs/engineering/senior-software-engineer-cloud-infrastructure-reliability-d-w-m-4974185",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.901283+00:00",
-    "dedupe_key": "1a93228a95ece4b4f88d",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.088657+00:00"
-  },
-  {
-    "company": "Truecaller",
-    "title": "Senior Software Engineer - Android",
-    "location": "Stockholm, Sweden 🇸🇪",
-    "url": "https://www.truecaller.com/careers/jobs/4009545",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.912354+00:00",
-    "dedupe_key": "9b4b9812ae3f0dbe0ce1",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.108025+00:00"
-  },
-  {
-    "company": "Truecaller",
-    "title": "Senior Software Engineer - iOS",
-    "location": "Stockholm, Sweden 🇸🇪",
-    "url": "https://www.truecaller.com/careers/jobs/4841415",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.912575+00:00",
-    "dedupe_key": "a5772eecc85f16ac1e39",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.108235+00:00"
-  },
-  {
-    "company": "FRIDAY",
-    "title": "Senior Software Engineer (Frontend Focus) (m/f/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://join.com/companies/friday/7486987-senior-software-engineer-frontend-focus-m-f-d",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.913739+00:00",
-    "dedupe_key": "1a84db5a858d609acec3",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.110036+00:00"
-  },
-  {
-    "company": "TomTom",
-    "title": "Senior Software Engineer (C++)",
-    "location": "Amesterdam, Netherlands 🇳🇱",
-    "url": "https://jobs.eu.lever.co/tomtom/eb24f8f8-a5ed-4001-917a-5498de0ea739",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.929289+00:00",
-    "dedupe_key": "91ba4d17fcc0406c4626",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.137487+00:00"
-  },
-  {
-    "company": "**[Capital One](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66fcffc2d5ddcc16ed076086)**",
-    "title": "Senior Manager Software Engineering",
-    "location": "Richmond, VA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=cc0e273ceaee3b1fd1dbfdf70982aeb5",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.934635+00:00",
-    "dedupe_key": "104ff5acd65c064442c9",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.146682+00:00"
-  },
-  {
-    "company": "**[ProjectFitter](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=672ddd7063d0931221ecc5ed)**",
-    "title": "Senior Software Engineer (growth to Founding Engineer)",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=b259da64ed919058c16d6c9539dea0c6",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.940549+00:00",
-    "dedupe_key": "a5deae615346b6bc6e33",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.167461+00:00"
-  },
-  {
-    "company": "**[Volley](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=66781ad1a27e1440a552b93a)**",
-    "title": "Senior Software Engineer, TV Games",
-    "location": "San Francisco, California, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=94ce14cd260d65c2693fb99dcb261437",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.946255+00:00",
-    "dedupe_key": "748e1aaba51383f168ea",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.185377+00:00"
-  },
-  {
-    "company": "**[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Senior Software Engineer, Simulation",
-    "location": "Palo Alto, California, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=cb2f02a90400301e909605edefa8b360",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.946859+00:00",
-    "dedupe_key": "631b3579c39ea607853c",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.187127+00:00"
-  },
-  {
-    "company": "**[Pave](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678174ba27e1440a552b334)**",
-    "title": "Senior Fullstack Software Engineer",
-    "location": "San Francisco, CA, US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=United+States&type=country&cc=us&utm_source=github&utm_medium=skillsiredailyH1Brepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=0639f382ca03ccaed790574d10444a60",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.947936+00:00",
-    "dedupe_key": "e370318e36e21080ba00",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.190053+00:00"
-  },
-  {
-    "company": "**[Capital One](http://www.capitalone.com)**",
-    "title": "Senior Manager, Software Engineering, Full Stack ( Enterprise Platforms Technology)",
-    "location": "McLean, VA",
-    "url": "https://www.capitalonecareers.com/job/-/-/234/72949192960",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.956830+00:00",
-    "dedupe_key": "cae06baa42aaca1d3984",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.214430+00:00"
-  },
-  {
-    "company": "**[Grab](https://grab.careers)**",
-    "title": "**[Senior Software Engineer, Reverse Engineering](https://jobr.pro/job/41518335/senior-software-engineer-reverse-engineering?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Beijing, , China",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.957452+00:00",
-    "dedupe_key": "07e69515023b3d2263fc",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.215679+00:00"
-  },
-  {
-    "company": "**[ServiceNow](https://www.servicenow.com)**",
-    "title": "**[Senior Software Engineer, Core Platform- Moveworks](https://jobr.pro/job/41518355/senior-software-engineer-core-platform-moveworks?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Bangalore, Karnataka, India",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.957764+00:00",
-    "dedupe_key": "0cf07a77cc6541641529",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.216197+00:00"
-  },
-  {
-    "company": "**[splose](https://splose.com)**",
-    "title": "**[Senior Software Engineer (AI Team)](https://jobr.pro/job/41518933/senior-software-engineer-ai-team?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Head Office - Adelaide",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.961767+00:00",
-    "dedupe_key": "c9fbb48ae16ad136b670",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.224603+00:00"
-  },
-  {
-    "company": "**[BillionToOne](https://www.billiontoone.com)**",
-    "title": "**[Senior Software Engineer, Digital Experiences](https://jobr.pro/job/41511640/senior-software-engineer-digital-experiences?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Menlo Park, CA",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.963143+00:00",
-    "dedupe_key": "f7f5b54795a1edbdc27a",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.227652+00:00"
-  },
-  {
-    "company": "**[Lucid Motors](https://lucidmotors.com)**",
-    "title": "**[Senior Software Engineer, Motion Planning, Parking](https://jobr.pro/job/41510878/senior-software-engineer-motion-planning-parking?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Newark, CA",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.963891+00:00",
-    "dedupe_key": "a04a35ad8dffe9820d35",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.229611+00:00"
-  },
-  {
-    "company": "**[Waymo](https://careers.withwaymo.com)**",
-    "title": "**[Senior Software Engineer, Sensor Simulation Platform](https://jobr.pro/job/41514310/senior-software-engineer-sensor-simulation-platform?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Mountain View, California ; San Francisco, California ; New York City, New York",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.965516+00:00",
-    "dedupe_key": "8e9bdb4ba121992dbdb4",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.232741+00:00"
-  },
-  {
-    "company": "**[Instructure](https://instructure.io)**",
-    "title": "**[Senior Software Engineer - Salt Lake City](https://jobr.pro/job/41509626/senior-software-engineer-salt-lake-city?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Salt Lake City, Utah",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.966195+00:00",
-    "dedupe_key": "f48fce8363d03717db91",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.234211+00:00"
-  },
-  {
-    "company": "**[Cloaked](https://www.cloaked.com)**",
-    "title": "**[Senior Software Engineer, AI](https://jobr.pro/job/41518292/senior-software-engineer-ai?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York, NY",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.967061+00:00",
-    "dedupe_key": "334e065c9d9e8f30e215",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.235630+00:00"
-  },
-  {
-    "company": "**[The New York Times](https://nytimes.com)**",
-    "title": "**[Senior Software Engineer, Media Innovations Team](https://jobr.pro/job/41509330/senior-software-engineer-media-innovations-team?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York, NY",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.967360+00:00",
-    "dedupe_key": "a828bf2a87985fb70756",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.236143+00:00"
-  },
-  {
-    "company": "**[The New York Times](https://nytimes.com)**",
-    "title": "**[Senior Software Engineer, CI/CD](https://jobr.pro/job/41509329/senior-software-engineer-cicd?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "New York, NY",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.968385+00:00",
-    "dedupe_key": "99aaa3c5c56129a25245",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.238591+00:00"
-  },
-  {
-    "company": "**[Evry Health](https://evryhealth.com)**",
-    "title": "**[Senior Software Engineer (Node)](https://jobr.pro/job/41513671/senior-software-engineer-node?utm_source=github&utm_medium=repo&utm_campaign=github-software-engineering-jobs)**",
-    "location": "Dallas-Fort Worth, Texas",
-    "url": "",
-    "source": "daily_software_engineering_jobs",
-    "last_seen": "2026-08-16T21:02:40.969252+00:00",
-    "dedupe_key": "e1d45343e765a0135836",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 30,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.240026+00:00"
+    "first_seen": "2026-08-16T20:53:47.059698+00:00"
   },
   {
     "company": "Catawiki",
@@ -3547,7 +1028,7 @@
     "location": "Amsterdam, Netherlands 🇳🇱",
     "url": "https://catawiki.careers/vacancies/senior-back-end-developer-ii-search-discovery-netherlands-amsterdam-2474543-4882477",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.915175+00:00",
+    "last_seen": "2026-08-16T21:03:20.148715+00:00",
     "dedupe_key": "22541715e51820f0574e",
     "experience": {
       "value": 4,
@@ -3558,11 +1039,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 30,
-      "confidence": 0.72,
+      "score": 20,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++",
+        "Slightly above target experience",
         "Visa unknown; retained"
       ]
     },
@@ -3571,358 +1052,12 @@
     "first_seen": "2026-08-16T20:53:47.112839+00:00"
   },
   {
-    "company": "**[Capital One](http://www.capitalone.com)**",
-    "title": "Senior Lead Data Engineer (Python, Spark, AWS)",
-    "location": "New York, NY",
-    "url": "https://www.capitalonecareers.com/job/-/-/234/72960380144",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.956264+00:00",
-    "dedupe_key": "24655109cc3d1d4164ad",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 29,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Python, C, C++",
-        "Cloud/infra supporting match",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.213692+00:00"
-  },
-  {
-    "company": "Zalando SE",
-    "title": "Software Engineer (Kotlin/Java)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://jobs.zalando.com/en/jobs/4870595",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.885302+00:00",
-    "dedupe_key": "530e9f2646a91d4b5800",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 25,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: Java",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.059065+00:00"
-  },
-  {
-    "company": "BIT Capital GmbH",
-    "title": "Fullstack Engineer",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://bitcap.jobs.personio.com/job/1013031?display=en&language=en&pid=467abbf8-d41f-45b2-bc9e-61bb039a7dfc&it=Y3SPjw00n5wthDbtzJtWrg&_ghcid=313af691-d6f6-4a40-b0d3-c91d7ceb85ae#apply",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.930302+00:00",
-    "dedupe_key": "8515da5aa12df52c7ee4",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 22,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.138913+00:00"
-  },
-  {
-    "company": "MBition",
-    "title": "Embedded (Linux) Software Engineer (All genders)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://mbition.io/jobs/?job=1026583",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.903712+00:00",
-    "dedupe_key": "b6e682135cae0e41356e",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.092944+00:00"
-  },
-  {
-    "company": "Plumerai",
-    "title": "Software Engineer",
-    "location": "Amsterdam, Netherlands 🇳🇱",
-    "url": "https://apply.workable.com/plumerai/j/CC604E7257/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.909621+00:00",
-    "dedupe_key": "5c21b351b348fce2f46e",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.103258+00:00"
-  },
-  {
-    "company": "Plumerai",
-    "title": "Software Engineer",
-    "location": "London, UK 🇬🇧",
-    "url": "https://apply.workable.com/plumerai/j/CC604E7257/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.909821+00:00",
-    "dedupe_key": "2b188dd5a9afe08f56f4",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.103436+00:00"
-  },
-  {
-    "company": "MEDWING",
-    "title": "Software Engineer (gn)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://team.medwing.com/en/jobs/software-engineer-gn/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.920301+00:00",
-    "dedupe_key": "7afbc3c2e839f3d658af",
-    "experience": {
-      "value": null,
-      "confidence": "unknown"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Experience unknown; retained",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.121682+00:00"
-  },
-  {
-    "company": "Billie",
-    "title": "Senior Software Engineer (Payments) (w/m/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://www.billie.io/jobs/apply?gh_jid=6682465002",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.890798+00:00",
-    "dedupe_key": "e342709b2e301cba1ffd",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.055532+00:00"
-  },
-  {
-    "company": "Alteos",
-    "title": "Senior Software Engineer (m/w/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://alteos.jobs.personio.de/job/1022912?display=en",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.883467+00:00",
-    "dedupe_key": "a8bd63785b4faae4b0f4",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.056181+00:00"
-  },
-  {
-    "company": "Billie",
-    "title": "Senior Software Engineer (Risk) (w/m/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://www.billie.io/jobs/apply?gh_jid=6686846002",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.891351+00:00",
-    "dedupe_key": "5f1fa788921bd1de0bb9",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.070464+00:00"
-  },
-  {
-    "company": "taxfix",
-    "title": "Senior Software Engineer - Frontend (d/f/m)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://taxfix.de/en/careers/open-position/6642950002/",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.893990+00:00",
-    "dedupe_key": "b8c538abdfa1bb835d2b",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.075308+00:00"
-  },
-  {
-    "company": "FRIDAY",
-    "title": "Senior Software Engineer - Data Team (m/f/d)",
-    "location": "Berlin, Germany 🇩🇪",
-    "url": "https://join.com/companies/friday/7494730-senior-software-engineer-data-team-m-f-d",
-    "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.913517+00:00",
-    "dedupe_key": "0dfb50cb0251e59932cd",
-    "experience": {
-      "value": 4,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 20,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.109801+00:00"
-  },
-  {
     "company": "Wolt",
     "title": "Database Engineer",
     "location": "Berlin, Germany 🇩🇪",
     "url": "https://careers.wolt.com/en/jobs/database-engineer/6353c71",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.894506+00:00",
+    "last_seen": "2026-08-16T21:03:20.104728+00:00",
     "dedupe_key": "79043decbef90265e513",
     "experience": {
       "value": null,
@@ -3933,8 +1068,8 @@
       "confidence": 0
     },
     "match": {
-      "score": 12,
-      "confidence": 0.72,
+      "score": 18,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
         "Experience unknown; retained",
@@ -3951,7 +1086,7 @@
     "location": "Hamburg, Germany 🇩🇪",
     "url": "https://adjoe.io/career/?j_id=139e554d-312e-4493-8037-456ce82c5f92",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.907643+00:00",
+    "last_seen": "2026-08-16T21:03:20.132835+00:00",
     "dedupe_key": "c5658c02131b3853790d",
     "experience": {
       "value": 6,
@@ -3962,11 +1097,11 @@
       "confidence": 0
     },
     "match": {
-      "score": 10,
-      "confidence": 0.72,
+      "score": 5,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: C, C++, Backend",
+        "Skills: Backend",
         "Likely too senior",
         "Visa unknown; retained"
       ]
@@ -3976,42 +1111,12 @@
     "first_seen": "2026-08-16T20:53:47.099597+00:00"
   },
   {
-    "company": "**[Latitude AI](https://www.skillsire.com/job/jobs-enlisting/all-jobs?loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&comp=6678132fa180151f6f575bd4)**",
-    "title": "Tech Lead Software Engineer, ML (Unified Model)",
-    "location": "US",
-    "url": "https://www.skillsire.com/job/jobs-enlisting/all-jobs?query=Intern&loc=Worldwide&type=world&lat=0&lng=0&utm_source=github&utm_medium=skillsiregithubinternrepo&utm_campaign=githubrepo&utm_content=github&dp=pm&jobId=1e3d80d264d590d4a2996039138a8752",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.945234+00:00",
-    "dedupe_key": "92e44caaf2e3ff3f4046",
-    "experience": {
-      "value": 6,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 5,
-      "confidence": 0.6,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Likely too senior",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.182703+00:00"
-  },
-  {
     "company": "N26",
     "title": "Lead Database Engineer (PostgreSQL)",
     "location": "Vienna, Austria 🇦🇹",
     "url": "https://n26.com/en/careers/positions/3676004",
     "source": "lamiiine_visa_jobs",
-    "last_seen": "2026-08-16T21:02:40.924331+00:00",
+    "last_seen": "2026-08-16T21:03:20.168852+00:00",
     "dedupe_key": "ba7650f0f1179d7851bb",
     "experience": {
       "value": 6,
@@ -4023,10 +1128,9 @@
     },
     "match": {
       "score": 0,
-      "confidence": 0.72,
+      "confidence": 0.78,
       "reasons": [
         "Backend-focused role",
-        "Skills: SQL",
         "Database match: PostgreSQL",
         "Likely too senior",
         "Visa unknown; retained"
@@ -4035,35 +1139,5 @@
     "decision": "LOW",
     "status": "new",
     "first_seen": "2026-08-16T20:53:47.128469+00:00"
-  },
-  {
-    "company": "**[Capital One](http://www.capitalone.com)**",
-    "title": "Principal Associate, Data Science - Card Intelligence",
-    "location": "McLean, VA",
-    "url": "https://www.capitalonecareers.com/job/-/-/234/72581084032",
-    "source": "skillsire_h1b_jobs",
-    "last_seen": "2026-08-16T21:02:40.955228+00:00",
-    "dedupe_key": "31de72c677ebce6bc711",
-    "experience": {
-      "value": 6,
-      "confidence": "inferred"
-    },
-    "visa": {
-      "status": "unknown",
-      "confidence": 0
-    },
-    "match": {
-      "score": 0,
-      "confidence": 0.72,
-      "reasons": [
-        "Backend-focused role",
-        "Skills: C, C++",
-        "Likely too senior",
-        "Visa unknown; retained"
-      ]
-    },
-    "decision": "LOW",
-    "status": "new",
-    "first_seen": "2026-08-16T20:53:47.211071+00:00"
   }
 ]
