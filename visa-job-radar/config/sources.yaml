@@ -23,3 +23,8 @@ sources:
     repo: Software-Engineering-Jobs
     path: README.md
     enabled: true
+  - id: amazon_sde
+    type: amazon
+    countries: [AUS, NZL, ARE, DEU, GBR, IRL, CAN, USA, FRA, NLD, SWE, CHE, DNK, NOR, FIN, BEL, AUT, ESP, PRT, ITA, POL, CZE, LUX]
+    per_country: 8
+    enabled: true
