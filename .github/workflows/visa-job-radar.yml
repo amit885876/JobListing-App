@@ -19,12 +19,36 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r visa-job-radar/requirements.txt
+      - name: Validate Python modules
+        working-directory: visa-job-radar
+        run: python -m compileall -q app
       - name: Collect raw jobs, validate sources, then score
         working-directory: visa-job-radar
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m app.run
+      - name: Verify collection diagnostics
+        working-directory: visa-job-radar
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          health = json.loads(Path('data/source_health.json').read_text())
+          companies = json.loads(Path('data/companies.json').read_text())
+          rows = health.get('sources', [])
+          expected = {c['name'] for c in companies}
+          actual = {r.get('company') for r in rows if r.get('company')}
+          missing = sorted(expected - actual)
+          print(f'companies={len(expected)} health_rows={len(actual)}')
+          if missing:
+              raise SystemExit('Missing source-health rows: ' + ', '.join(missing))
+          for row in rows:
+              if row.get('company'):
+                  print(f"{row['company']}: {row.get('status')} jobs={row.get('discovered', 0)} verified={row.get('crawler_verified', False)}")
+          raw = json.loads(Path('data/raw_jobs.json').read_text())
+          print(f"RAW_JOB_COUNT={raw.get('count', 0)}")
+          PY
       - name: Build dashboard
         working-directory: visa-job-radar
         run: python -m app.dashboard
