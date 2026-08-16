@@ -1,0 +1,47 @@
+# Seeded from public visa-sponsor directories and company career sources.
+# Inclusion means the employer has a sponsorship/relocation signal or sponsorship history;
+# it does NOT mean every vacancy sponsors. Each job is re-checked for role/location signals.
+companies:
+  - {name: Amazon, careers_url: https://www.amazon.jobs/en/search, adapter: amazon}
+  - {name: Microsoft, careers_url: https://jobs.careers.microsoft.com/global/en/search, adapter: generic}
+  - {name: Google, careers_url: https://www.google.com/about/careers/applications/jobs/results/, adapter: generic}
+  - {name: Meta, careers_url: https://www.metacareers.com/jobs, adapter: generic}
+  - {name: Atlassian, careers_url: https://www.atlassian.com/company/careers/all-jobs, adapter: generic}
+  - {name: Canva, careers_url: https://www.canva.com/careers/jobs/, adapter: generic}
+  - {name: Stripe, careers_url: https://stripe.com/jobs/search, adapter: generic}
+  - {name: Shopify, careers_url: https://www.shopify.com/careers/search, adapter: generic}
+  - {name: Spotify, careers_url: https://www.lifeatspotify.com/jobs, adapter: generic}
+  - {name: Klarna, careers_url: https://www.klarna.com/careers/, adapter: generic}
+  - {name: Zalando, careers_url: https://jobs.zalando.com/en/jobs, adapter: generic}
+  - {name: Wise, careers_url: https://wise.jobs/, adapter: generic}
+  - {name: Revolut, careers_url: https://www.revolut.com/careers/, adapter: generic}
+  - {name: Adyen, careers_url: https://careers.adyen.com/vacancies, adapter: generic}
+  - {name: Datadog, careers_url: https://careers.datadoghq.com/all-jobs/, adapter: generic}
+  - {name: Cloudflare, careers_url: https://www.cloudflare.com/careers/jobs/, adapter: generic}
+  - {name: GitLab, careers_url: https://about.gitlab.com/jobs/all-jobs/, adapter: generic}
+  - {name: Grafana Labs, careers_url: https://grafana.com/about/careers/open-positions/, adapter: generic}
+  - {name: Snyk, careers_url: https://snyk.io/careers/, adapter: generic}
+  - {name: N26, careers_url: https://n26.com/en-eu/careers, adapter: generic}
+  - {name: Booking.com, careers_url: https://jobs.booking.com/, adapter: generic}
+  - {name: Uber, careers_url: https://www.uber.com/us/en/careers/, adapter: generic}
+  - {name: Airbnb, careers_url: https://careers.airbnb.com/positions/, adapter: generic}
+  - {name: Expedia Group, careers_url: https://careers.expediagroup.com/jobs/, adapter: generic}
+  - {name: Bloomberg, careers_url: https://www.bloomberg.com/company/careers/positions/, adapter: generic}
+  - {name: Goldman Sachs, careers_url: https://higher.gs.com/results, adapter: generic}
+  - {name: JPMorgan Chase, careers_url: https://www.jpmorganchase.com/careers, adapter: generic}
+  - {name: Deutsche Bank, careers_url: https://careers.db.com/, adapter: generic}
+  - {name: Capital One, careers_url: https://www.capitalonecareers.com/search-jobs, adapter: generic}
+  - {name: Monzo, careers_url: https://monzo.com/careers/, adapter: generic}
+  - {name: Form3, careers_url: https://www.form3.tech/careers, adapter: generic}
+  - {name: Trivago, careers_url: https://company.trivago.com/careers/, adapter: generic}
+  - {name: BlaBlaCar, careers_url: https://jobs.blablacar.com/, adapter: generic}
+  - {name: Dynatrace, careers_url: https://www.dynatrace.com/careers/jobs/, adapter: generic}
+  - {name: SAP, careers_url: https://jobs.sap.com/, adapter: generic}
+  - {name: Siemens, careers_url: https://jobs.siemens.com/careers, adapter: generic}
+  - {name: Optiver, careers_url: https://optiver.com/working-at-optiver/career-opportunities/, adapter: generic}
+  - {name: SafetyCulture, careers_url: https://safetyculture.com/careers/, adapter: generic}
+  - {name: SiteMinder, careers_url: https://www.siteminder.com/careers/, adapter: generic}
+  - {name: WiseTech Global, careers_url: https://www.wisetechglobal.com/careers/, adapter: generic}
+  - {name: Tyro, careers_url: https://www.tyro.com/careers/, adapter: generic}
+  - {name: Zip, careers_url: https://zip.co/careers, adapter: generic}
+  - {name: Canva, careers_url: https://www.canva.com/careers/jobs/, adapter: generic}
