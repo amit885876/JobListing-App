@@ -26,9 +26,9 @@ sources:
   - id: amazon_sde
     type: amazon
     countries: [AUS, NZL, ARE, DEU, GBR, IRL, CAN, USA, FRA, NLD, SWE, CHE, DNK, NOR, FIN, BEL, AUT, ESP, PRT, ITA, POL, CZE, LUX]
-    per_country: 12
+    per_country: 50
     enabled: true
   - id: sponsor_company_careers
     type: company_careers
-    registry_path: config/sponsor_companies.yaml
+    registry_path: data/companies.json
     enabled: true
