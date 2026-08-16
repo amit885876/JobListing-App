@@ -1,0 +1,13 @@
+sources:
+  - id: lamiiine_visa_jobs
+    type: github_markdown
+    owner: Lamiiine
+    repo: Awesome-daily-list-of-visa-sponsored-jobs
+    path: jobs_table.md
+    enabled: true
+  - id: eu_visa_sponsoring_companies
+    type: github_markdown
+    owner: amol-can
+    repo: eu-visa-sponsoring-companies
+    path: README.md
+    enabled: true
