@@ -11,3 +11,15 @@ sources:
     repo: eu-visa-sponsoring-companies
     path: README.md
     enabled: true
+  - id: skillsire_h1b_jobs
+    type: github_markdown
+    owner: skillsire
+    repo: Daily-H1B-Jobs
+    path: README.md
+    enabled: true
+  - id: daily_software_engineering_jobs
+    type: github_markdown
+    owner: jobs-jobr-pro
+    repo: Software-Engineering-Jobs
+    path: README.md
+    enabled: true
