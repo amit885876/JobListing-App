@@ -1,0 +1,45 @@
+candidate:
+  years_experience: 2
+  target_roles:
+    - Backend Engineer
+    - Software Engineer
+    - Software Development Engineer
+    - Member of Technical Staff
+    - Platform Engineer
+    - Distributed Systems Engineer
+    - Infrastructure Engineer
+    - API Engineer
+    - Cloud Engineer
+    - Product Engineer
+  excluded_roles:
+    - SDET
+    - QA Engineer
+    - Manual Tester
+    - Test Engineer
+    - QA Automation Engineer
+  target_regions:
+    - Australia
+    - New Zealand
+    - United Arab Emirates
+    - Dubai
+    - Abu Dhabi
+    - Europe
+    - United Kingdom
+    - Britain
+    - Ireland
+    - Canada
+    - United States
+  skills:
+    languages: [Java, Python, JavaScript, TypeScript, C, C++, SQL]
+    backend: [Spring Boot, Node.js, Express.js, REST APIs, Microservices]
+    databases: [MySQL, PostgreSQL, MongoDB, Amazon RDS, ClickHouse]
+    distributed_data: [Kafka, Delta Lake, Time Series, Data Pipelines]
+    cloud_infra: [AWS, EC2, S3, ECR, Docker, Kubernetes, Terraform]
+    observability: [Prometheus, Grafana]
+    testing: [Selenium, WebdriverIO, Nightwatch]
+    ai: [OpenAI API, Claude API, RAG, MCP, AI Agents, Prompt Engineering]
+  preferences:
+    backend_first: true
+    high_recall: true
+    unknown_experience_allowed: true
+    unknown_visa_allowed: true
