@@ -1,134 +1,127 @@
 import json
 import re
 from datetime import datetime, timezone
-from urllib.parse import parse_qs, urlencode, urljoin, urlparse, urlunparse
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 '
-                  '(KHTML, like Gecko) Chrome/126 Safari/537.36 visa-job-radar/4.0'
+                  '(KHTML, like Gecko) Chrome/126 Safari/537.36 visa-job-radar/5.0',
+    'Accept-Language': 'en-US,en;q=0.9',
 }
-TIMEOUT = 25
-MAX_PAGES = 12
-JOB_PATH_HINT = re.compile(
-    r'(?:/jobs?/|/careers?/|jobid|job-details|job-detail|position|requisition|opening|vacanc|/apply)',
-    re.I,
-)
-JOB_TITLE_HINT = re.compile(
-    r'\b(software|backend|developer|engineer|engineering|developer|development|sde|programmer|technical|data|product|devops|sre|security|scientist|designer)\b',
-    re.I,
-)
+TIMEOUT = 30
+MAX_PAGES = 30
+AMAZON_PAGE_SIZE = 100
+GOOGLE_QUERIES = ('software engineer', 'software development engineer', 'backend engineer')
+MICROSOFT_QUERIES = ('software engineer', 'software development engineer', 'backend engineer')
 
 
-def _get(url):
-    response = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
+def _get(url, params=None, accept=None):
+    headers = dict(HEADERS)
+    if accept:
+        headers['Accept'] = accept
+    response = requests.get(url, params=params, headers=headers, timeout=TIMEOUT, allow_redirects=True)
     response.raise_for_status()
     return response
 
 
 def _normalize_url(url):
-    return url.split('#')[0].rstrip('/')
+    return (url or '').split('#')[0].rstrip('/')
 
 
-def _job_from_jsonld(obj, company, source_id, now, page_url):
-    if isinstance(obj, list):
-        for item in obj:
-            result = _job_from_jsonld(item, company, source_id, now, page_url)
-            if result:
-                yield result
-        return
-    if not isinstance(obj, dict):
-        return
-    if obj.get('@type') != 'JobPosting':
-        if isinstance(obj.get('@graph'), list):
-            for item in obj['@graph']:
-                yield from _job_from_jsonld(item, company, source_id, now, page_url)
-        return
+def _text(value):
+    return ' '.join(str(value or '').split())
 
-    location = obj.get('jobLocation') or obj.get('jobLocationType') or ''
-    if isinstance(location, list):
-        location = ', '.join(
-            str((x.get('address') or {}).get('addressLocality') or x.get('name') or '')
-            for x in location if isinstance(x, dict)
-        )
-    elif isinstance(location, dict):
-        address = location.get('address') or {}
-        location = ', '.join(str(x) for x in [
-            address.get('addressLocality'), address.get('addressRegion'), address.get('addressCountry')
-        ] if x)
-    url = obj.get('url') or page_url
-    yield {
+
+def _job(company, title, location, url, description, source_id, now):
+    return {
         'company': company,
-        'title': str(obj.get('title') or '').strip(),
-        'location': str(location).strip(),
+        'title': _text(title),
+        'location': _text(location),
         'url': _normalize_url(url),
-        'description': BeautifulSoup(str(obj.get('description') or ''), 'html.parser').get_text(' ', strip=True)[:12000],
+        'description': _text(description)[:16000],
         'source': source_id,
         'last_seen': now,
     }
 
 
-def _extract_jobs(html, base_url, company, source_id, now):
+def _job_from_jsonld(obj, company, source_id, now, page_url):
+    if isinstance(obj, list):
+        for item in obj:
+            yield from _job_from_jsonld(item, company, source_id, now, page_url)
+        return
+    if not isinstance(obj, dict):
+        return
+    if obj.get('@type') == 'JobPosting':
+        location = obj.get('jobLocation') or obj.get('jobLocationType') or ''
+        if isinstance(location, list):
+            values = []
+            for item in location:
+                if isinstance(item, dict):
+                    address = item.get('address') or {}
+                    values.append(_text(address.get('addressLocality') or item.get('name') or ''))
+            location = ', '.join(x for x in values if x)
+        elif isinstance(location, dict):
+            address = location.get('address') or {}
+            location = ', '.join(x for x in (
+                address.get('addressLocality'), address.get('addressRegion'), address.get('addressCountry')
+            ) if x)
+        description = BeautifulSoup(str(obj.get('description') or ''), 'html.parser').get_text(' ', strip=True)
+        yield _job(company, obj.get('title'), location, obj.get('url') or page_url,
+                   description, source_id, now)
+    for child in obj.get('@graph', []) if isinstance(obj.get('@graph'), list) else []:
+        yield from _job_from_jsonld(child, company, source_id, now, page_url)
+
+
+def _extract_jsonld(html, page_url, company, source_id, now):
     soup = BeautifulSoup(html, 'html.parser')
     jobs = []
-
-    # First preference: structured JobPosting data. This is much stronger evidence
-    # than treating every /careers/ link as a job.
     for script in soup.select('script[type="application/ld+json"]'):
         try:
             data = json.loads(script.string or script.get_text())
-            jobs.extend(_job_from_jsonld(data, company, source_id, now, base_url))
+            jobs.extend(_job_from_jsonld(data, company, source_id, now, page_url))
         except Exception:
             continue
+    return jobs
 
+
+def _extract_job_links(html, base_url, company, source_id, now):
+    soup = BeautifulSoup(html, 'html.parser')
+    jobs = _extract_jsonld(html, base_url, company, source_id, now)
     seen = {j['url'] for j in jobs if j.get('url')}
+    job_url = re.compile(r'(?:/jobs?/|/careers?/[^?#]+/|/job/|/positions?/|/vacanc|/opening|/requisition|jobid=)', re.I)
+    title_hint = re.compile(r'\b(software|backend|developer|engineer|engineering|development|sde|programmer|technical)\b', re.I)
     for a in soup.select('a[href]'):
-        title = ' '.join(a.get_text(' ', strip=True).split())
+        title = _text(a.get_text(' ', strip=True))
         href = _normalize_url(urljoin(base_url, a.get('href', '')))
-        if not href.startswith(('http://', 'https://')) or len(title) < 8:
+        if len(title) < 8 or not href.startswith(('http://', 'https://')):
             continue
-        if href in seen or not JOB_PATH_HINT.search(href):
+        if href in seen or not title_hint.search(title) or not job_url.search(href):
             continue
-        if not JOB_TITLE_HINT.search(title):
-            continue
-        # Avoid collecting navigation/company pages as jobs.
-        path = urlparse(href).path.lower()
-        if path.rstrip('/') in {'/jobs', '/careers', '/career', '/openings'}:
+        path = urlparse(href).path.lower().rstrip('/')
+        if path in {'/jobs', '/careers', '/career', '/openings'}:
             continue
         parent = a.parent
-        snippet = ' '.join(parent.parent.get_text(' ', strip=True).split()) if parent and parent.parent else title
-        jobs.append({
-            'company': company,
-            'title': title,
-            'location': '',
-            'url': href,
-            'description': snippet[:12000],
-            'source': source_id,
-            'last_seen': now,
-        })
+        snippet = _text(parent.parent.get_text(' ', strip=True) if parent and parent.parent else title)
+        jobs.append(_job(company, title, '', href, snippet, source_id, now))
         seen.add(href)
     return jobs
 
 
 def _greenhouse(company, source_id, now, careers_url):
     parsed = urlparse(careers_url)
+    if 'greenhouse.io' not in parsed.netloc:
+        return []
     parts = [p for p in parsed.path.split('/') if p]
     slug = parts[-1] if parts else ''
-    if 'greenhouse.io' not in parsed.netloc or not slug:
+    if not slug:
         return []
-    url = f'https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true'
-    data = _get(url).json()
-    return [{
-        'company': company,
-        'title': j.get('title', '').strip(),
-        'location': ((j.get('location') or {}).get('name') or '').strip(),
-        'url': j.get('absolute_url', '').strip(),
-        'description': BeautifulSoup(j.get('content', ''), 'html.parser').get_text(' ', strip=True)[:12000],
-        'source': source_id,
-        'last_seen': now,
-    } for j in data.get('jobs', []) if j.get('absolute_url')]
+    data = _get(f'https://boards-api.greenhouse.io/v1/boards/{slug}/jobs', {'content': 'true'}, 'application/json').json()
+    return [_job(company, j.get('title'), (j.get('location') or {}).get('name'), j.get('absolute_url'),
+                  BeautifulSoup(j.get('content', ''), 'html.parser').get_text(' ', strip=True), source_id, now)
+            for j in data.get('jobs', []) if j.get('absolute_url')]
 
 
 def _lever(company, source_id, now, careers_url):
@@ -138,55 +131,102 @@ def _lever(company, source_id, now, careers_url):
     slug = next((p for p in parsed.path.split('/') if p), '')
     if not slug:
         return []
-    data = _get(f'https://api.lever.co/v0/postings/{slug}?mode=json').json()
+    data = _get(f'https://api.lever.co/v0/postings/{slug}', {'mode': 'json'}, 'application/json').json()
+    return [_job(company, j.get('text'), (j.get('categories') or {}).get('location'),
+                  j.get('hostedUrl') or j.get('applyUrl'), j.get('descriptionPlain') or j.get('description'), source_id, now)
+            for j in data if isinstance(j, dict) and (j.get('hostedUrl') or j.get('applyUrl'))]
+
+
+def _amazon(company, source_id, now):
     jobs = []
-    for j in data if isinstance(data, list) else []:
-        jobs.append({
-            'company': company,
-            'title': (j.get('text') or '').strip(),
-            'location': ((j.get('categories') or {}).get('location') or '').strip(),
-            'url': (j.get('hostedUrl') or j.get('applyUrl') or '').strip(),
-            'description': BeautifulSoup((j.get('descriptionPlain') or j.get('description') or ''), 'html.parser').get_text(' ', strip=True)[:12000],
-            'source': source_id,
-            'last_seen': now,
-        })
-    return [j for j in jobs if j['url']]
-
-
-def _candidate_urls(company):
-    base = company['careers_url'].rstrip('/')
-    name = company['name'].lower()
-    if name == 'amazon':
-        return [
-            'https://www.amazon.jobs/en/search?base_query=software+development+engineer&sort=recent&result_limit=100',
-            'https://www.amazon.jobs/en/search?base_query=software+engineer&sort=recent&result_limit=100',
-        ]
-    if name == 'google':
-        return [
-            'https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineer',
-            'https://www.google.com/about/careers/applications/jobs/results/?q=software%20developer',
-        ]
-    if name == 'microsoft':
-        return [
-            'https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer',
-            'https://jobs.careers.microsoft.com/global/en/search?q=software%20development%20engineer',
-        ]
-    return list(dict.fromkeys([base, base + '/jobs', base + '/careers', base + '/en/jobs', base + '/en-us/jobs']))
-
-
-def _paginate_links(first_url, html, max_pages=MAX_PAGES):
-    soup = BeautifulSoup(html, 'html.parser')
-    urls = [first_url]
-    for a in soup.select('a[href]'):
-        text = ' '.join(a.get_text(' ', strip=True).split()).lower()
-        rel = ' '.join(a.get('rel', [])).lower()
-        if text in {'next', 'next page', 'older', 'load more'} or 'next' in rel:
-            nxt = _normalize_url(urljoin(first_url, a['href']))
-            if nxt not in urls:
-                urls.append(nxt)
-        if len(urls) >= max_pages:
+    offset = 0
+    while offset < 5000:
+        params = {
+            'offset': offset,
+            'result_limit': AMAZON_PAGE_SIZE,
+            'sort': 'recent',
+            'base_query': 'software engineer',
+        }
+        data = _get('https://www.amazon.jobs/en/search.json', params, 'application/json').json()
+        page = data.get('jobs') or []
+        if not page:
             break
-    return urls
+        for j in page:
+            path = j.get('job_path') or j.get('job_url')
+            url = path if str(path).startswith('http') else urljoin('https://www.amazon.jobs', str(path or ''))
+            jobs.append(_job(company, j.get('title'), j.get('location'), url,
+                             j.get('description') or j.get('basic_qualifications') or '', source_id, now))
+        offset += len(page)
+        total = int(data.get('hits') or 0)
+        if total and offset >= total:
+            break
+        if len(page) < AMAZON_PAGE_SIZE:
+            break
+    return jobs
+
+
+def _google(company, source_id, now):
+    jobs = []
+    seen = set()
+    for query in GOOGLE_QUERIES:
+        for page in range(1, MAX_PAGES + 1):
+            url = 'https://www.google.com/about/careers/applications/jobs/results'
+            response = _get(url, {'q': query, 'page': page})
+            soup = BeautifulSoup(response.text, 'html.parser')
+            found = []
+            for a in soup.select('a[href*="/about/careers/applications/jobs/"]'):
+                href = _normalize_url(urljoin(response.url, a.get('href')))
+                title = _text(a.get_text(' ', strip=True))
+                if '/jobs/' not in href or len(title) < 8 or href in seen:
+                    continue
+                # Google result cards contain the title and nearby location/team text.
+                card = a.parent.parent if a.parent else a
+                snippet = _text(card.get_text(' ', strip=True))
+                jobs.append(_job(company, title, '', href, snippet, source_id, now))
+                seen.add(href)
+                found.append(href)
+            if not found:
+                break
+    return jobs
+
+
+def _microsoft(company, source_id, now):
+    jobs = []
+    seen = set()
+    for query in MICROSOFT_QUERIES:
+        for page in range(1, MAX_PAGES + 1):
+            url = 'https://jobs.careers.microsoft.com/global/en/search'
+            response = _get(url, {'q': query, 'pg': page, 'pgSz': 50})
+            found = _extract_job_links(response.text, response.url, company, source_id, now)
+            fresh = [j for j in found if j.get('url') and j['url'] not in seen]
+            if not fresh:
+                break
+            for j in fresh:
+                seen.add(j['url'])
+            jobs.extend(fresh)
+    return jobs
+
+
+def _company_jobs(company, source_id, now):
+    name = company['name'].strip().lower()
+    url = company['careers_url']
+    # Dedicated sources are tried first; generic HTML is the fallback, never the primary strategy.
+    if name == 'amazon':
+        return _amazon(company['name'], source_id, now), ['amazon-search.json']
+    if name == 'google':
+        return _google(company['name'], source_id, now), ['google-careers-results']
+    if name == 'microsoft':
+        return _microsoft(company['name'], source_id, now), ['microsoft-careers-search']
+    if 'greenhouse.io' in urlparse(url).netloc:
+        return _greenhouse(company['name'], source_id, now, url), ['greenhouse-api']
+    if 'jobs.lever.co' in urlparse(url).netloc:
+        return _lever(company['name'], source_id, now, url), ['lever-api']
+
+    # For every other company, crawl the actual supplied career page and discover
+    # real JobPosting JSON-LD or job-detail links. We never treat the homepage itself as a job.
+    response = _get(url)
+    jobs = _extract_job_links(response.text, response.url, company['name'], source_id, now)
+    return jobs, [response.url]
 
 
 def collect(source):
@@ -197,62 +237,48 @@ def collect(source):
         companies = json.load(fh)
 
     now = datetime.now(timezone.utc).isoformat()
-    all_jobs, health = [], []
+    all_jobs = []
+    health = []
 
+    # Company-by-company isolation: a broken company can never stop the rest.
+    # The health record is written for EVERY company, whether it succeeds or fails.
     for company in companies:
         name = company['name']
-        company_jobs, errors = [], []
-        attempted = []
+        errors = []
+        attempts = []
         try:
-            direct = _greenhouse(name, source['id'], now, company['careers_url'])
-            if not direct:
-                direct = _lever(name, source['id'], now, company['careers_url'])
-            if direct:
-                company_jobs.extend(direct)
-                attempted.append('ats-api')
-            else:
-                attempted.append('html')
-                for url in _candidate_urls(company):
-                    try:
-                        response = _get(url)
-                        pages = _paginate_links(response.url, response.text)
-                        for page_url in pages:
-                            try:
-                                page = response.text if page_url == response.url else _get(page_url).text
-                                company_jobs.extend(_extract_jobs(page, page_url, name, source['id'], now))
-                            except Exception as exc:
-                                errors.append(f'{type(exc).__name__}: {str(exc)[:180]}')
-                    except Exception as exc:
-                        errors.append(f'{type(exc).__name__}: {str(exc)[:180]}')
-                    attempted.append(url)
+            jobs, attempts = _company_jobs(company, source['id'], now)
         except Exception as exc:
-            errors.append(f'{type(exc).__name__}: {str(exc)[:180]}')
+            jobs = []
+            errors.append(f'{type(exc).__name__}: {str(exc)[:300]}')
 
         unique = {}
-        for job in company_jobs:
-            url = job.get('url')
-            if url:
-                unique[url] = job
-        company_jobs = list(unique.values())
-        all_jobs.extend(company_jobs)
+        for job in jobs:
+            if job.get('url'):
+                unique[job['url']] = job
+        jobs = list(unique.values())
+        all_jobs.extend(jobs)
 
-        if company_jobs:
+        if jobs:
             status = 'ok'
         elif errors:
             status = 'failed'
         else:
-            status = 'no_jobs_found'
+            status = 'zero_results'
 
         health.append({
             'company': name,
             'careers_url': company['careers_url'],
             'status': status,
-            'crawler_verified': bool(company_jobs),
-            'discovered': len(company_jobs),
-            'urls_attempted': len(attempted),
+            'crawler_verified': bool(jobs),
+            'discovered': len(jobs),
+            'urls_attempted': len(attempts),
+            'attempts': attempts,
             'errors': errors[:5],
             'checked_at': now,
         })
+
+        print(f'[CRAWLER] {name}: {status} ({len(jobs)} jobs)')
 
     print('CAREER_SOURCE_HEALTH ' + json.dumps(health, separators=(',', ':')))
     return {'jobs': all_jobs, 'health': health}
