@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-16T21:20:00.043217+00:00",
+  "checked_at": "2026-08-16T21:46:12.959156+00:00",
   "sources": [
     {
       "source": "lamiiine_visa_jobs",
@@ -29,1149 +29,1328 @@
     {
       "company": "Google",
       "careers_url": "https://careers.google.com/",
-      "source_status": "ok",
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
       "urls_attempted": 1,
-      "discovered": 16,
-      "errors": []
+      "attempts": [
+        "google-careers-results"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Stripe",
       "careers_url": "https://stripe.com/jobs",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 3,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://stripe.com/jobs/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://stripe.com/jobs/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://stripe.com/jobs/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://stripe.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Amazon",
       "careers_url": "https://www.amazon.jobs/",
-      "source_status": "zero_results",
-      "urls_attempted": 2,
-      "discovered": 0,
-      "errors": []
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2070,
+      "urls_attempted": 1,
+      "attempts": [
+        "amazon-search.json"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Apple",
       "careers_url": "https://jobs.apple.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 19,
-      "errors": [
-        "ReadTimeout: HTTPSConnectionPool(host='jobs.apple.com', port=443): Read timed out. (read timeout=25)",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.apple.com/pagenotfound"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.apple.com/careers/us/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Meta",
       "careers_url": "https://www.metacareers.com/jobs/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.metacareers.com/jobs/position-not-available/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.metacareers.com/jobs/position-not-available/",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.metacareers.com/jobs/en/jobs"
-      ]
+        "HTTPError: 400 Client Error: Bad Request for url: https://www.metacareers.com/jobs/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Microsoft",
       "careers_url": "https://jobs.careers.microsoft.com/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "microsoft-careers-search"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Bloomberg",
       "careers_url": "https://www.bloomberg.com/company/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.bloomberg.com/company/careers",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.bloomberg.com/company/careers/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.bloomberg.com/company/careers/careers"
-      ]
+        "HTTPError: 403 Client Error: Forbidden for url: https://www.bloomberg.com/company/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Citadel",
       "careers_url": "https://www.citadel.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers/careers"
-      ]
+        "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Spotify",
       "careers_url": "https://www.lifeatspotify.com/jobs",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.lifeatspotify.com/jobs/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.lifeatspotify.com/jobs/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.lifeatspotify.com/jobs/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.lifeatspotify.com/jobs"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Snap",
       "careers_url": "https://www.snap.com/jobs",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.snap.com/404",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.snap.com/404",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.snap.com/404"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.snap.com/jobs?lang=en-US"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "ByteDance",
       "careers_url": "https://jobs.bytedance.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.bytedance.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.bytedance.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.bytedance.com/en-us/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://jobs.bytedance.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Booking.com",
       "careers_url": "https://careers.booking.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.booking.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.booking.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.booking.com/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.booking.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Mistral AI",
       "careers_url": "https://jobs.lever.co/mistral",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/mistral",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/mistral/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/mistral/careers"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "lever-api"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Yelp",
       "careers_url": "https://www.yelp.careers/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.yelp.careers/us/en"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Vercel",
       "careers_url": "https://vercel.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 83,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://vercel.com/careers/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://vercel.com/careers/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://vercel.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Mobiquity",
       "careers_url": "https://www.mobiquity.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.mobiquity.com/careers",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.mobiquity.com/careers/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.mobiquity.com/careers/careers"
-      ]
+        "HTTPError: 403 Client Error: Forbidden for url: https://www.mobiquity.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Expensify",
       "careers_url": "https://we.are.expensify.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://we.are.expensify.com/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://we.are.expensify.com/en-us/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://we.are.expensify.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Free Now",
       "careers_url": "https://www.free-now.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.free-now.com/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.free-now.com/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.free-now.com/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.free-now.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Marks & Spencer",
       "careers_url": "https://jobs.marksandspencer.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.marksandspencer.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.marksandspencer.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.marksandspencer.com/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://jobs.marksandspencer.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "EF Education First",
       "careers_url": "https://careers.ef.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.ef.com/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.ef.com/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.ef.com/en/jobs/"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.ef.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Contentful",
       "careers_url": "https://www.contentful.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.contentful.com/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.contentful.com/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.contentful.com/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.contentful.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Canva",
       "careers_url": "https://www.canva.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
+      "status": "ok",
+      "crawler_verified": true,
       "discovered": 1,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.lifeatcanva.com/en/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Intercom",
       "careers_url": "https://www.intercom.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 7,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.intercom.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.intercom.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.intercom.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://fin.ai/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "LEGO Group",
       "careers_url": "https://www.lego.com/en-us/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.lego.com/en-us/careers",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.lego.com/en-us/careers/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.lego.com/en-us/careers/careers"
-      ]
+        "HTTPError: 403 Client Error: Forbidden for url: https://www.lego.com/en-us/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Plaid",
       "careers_url": "https://plaid.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 104,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://plaid.com/careers/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://plaid.com/careers/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://plaid.com/careers/en/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://plaid.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Wise",
       "careers_url": "https://wise.jobs/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 22,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://wise.jobs/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://wise.jobs/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://wise.jobs/en-us/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 1,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://wise.jobs/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Palantir",
       "careers_url": "https://www.palantir.com/careers/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.palantir.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Algolia",
       "careers_url": "https://www.algolia.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 1,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.algolia.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.algolia.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.algolia.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.algolia.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Revolut",
       "careers_url": "https://www.revolut.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.revolut.com/careers/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.revolut.com/careers/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.revolut.com/careers/en/jobs/"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.revolut.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "PayFit",
       "careers_url": "https://jobs.lever.co/payfit",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/payfit",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/payfit/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/payfit/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/payfit?mode=json"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "SumUp",
       "careers_url": "https://www.sumup.com/en-us/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 19,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.sumup.com/careers/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.sumup.com/careers/en/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.sumup.com/careers/en-us/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.sumup.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Trainline",
       "careers_url": "https://www.thetrainline.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.thetrainline.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.thetrainline.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.thetrainline.com/careers/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://www.thetrainline.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Deliveroo",
       "careers_url": "https://careers.deliveroo.co.uk/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveroo.co.uk/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveroo.co.uk/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveroo.co.uk/en-us/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.deliveroo.co.uk/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Collibra",
       "careers_url": "https://www.collibra.com/company/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 42,
-      "errors": [
-        "TooManyRedirects: Exceeded 30 redirects.",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.collibra.com/company/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.collibra.com/company/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.collibra.com/company/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "HashiCorp",
       "careers_url": "https://www.hashicorp.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "OneFootball",
       "careers_url": "https://jobs.lever.co/onefootball",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/onefootball",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/onefootball/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/onefootball/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/onefootball?mode=json"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Barclays",
       "careers_url": "https://search.jobs.barclays/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://search.jobs.barclays/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://search.jobs.barclays/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://search.jobs.barclays/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://search.jobs.barclays/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Skyscanner",
       "careers_url": "https://www.skyscanner.net/jobs/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L2pvYnMvPw==&uuid=04b6c566-99bc-11f1-8141-9c16d63b0d9e&vid="
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "GoCardless",
       "careers_url": "https://gocardless.com/careers/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://gocardless.com/about/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "DRW",
       "careers_url": "https://www.drw.com/work-at-drw",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.drw.com/work-at-drw/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.drw.com/work-at-drw/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.drw.com/work-at-drw/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.drw.com/work-at-drw"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "MoonPay",
       "careers_url": "https://jobs.lever.co/moonpay",
-      "source_status": "error",
-      "urls_attempted": 5,
-      "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/moonpay/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/moonpay/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/moonpay/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 17,
+      "urls_attempted": 1,
+      "attempts": [
+        "lever-api"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Zalando",
       "careers_url": "https://jobs.zalando.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 15,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.zalando.com/en/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.zalando.com/en/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://jobs.zalando.com/en"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Ubisoft",
       "careers_url": "https://www.ubisoft.com/en-us/company/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": []
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.ubisoft.com/en-us/company/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Klarna",
       "careers_url": "https://www.klarna.com/careers/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.klarna.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Delivery Hero",
       "careers_url": "https://careers.deliveryhero.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 12,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveryhero.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveryhero.com/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.deliveryhero.com/en-us/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.deliveryhero.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "N26",
       "careers_url": "https://n26.com/en-eu/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://n26.com/en-eu/careers/careers"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 6,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://n26.com/en-eu/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Wayfair",
       "careers_url": "https://www.aboutwayfair.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 11,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.aboutwayfair.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.aboutwayfair.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.aboutwayfair.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.aboutwayfair.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Trivago",
       "careers_url": "https://careers.trivago.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": []
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.trivago.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Babbel",
       "careers_url": "https://jobs.babbel.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.babbel.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.babbel.com/en-us/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://jobs.babbel.com/en"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Personio",
       "careers_url": "https://www.personio.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.personio.com/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.personio.com/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.personio.com/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.personio.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "RapidAPI",
       "careers_url": "https://rapidapi.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://rapidapi.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://rapidapi.com/careers/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://rapidapi.com/careers/en-us/jobs"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://rapidapi.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "HelloFresh",
       "careers_url": "https://careers.hellofresh.com/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.hellofresh.com/global/en"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Taxfix",
       "careers_url": "https://taxfix.de/en/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 3,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://taxfix.de/en/careers/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://taxfix.de/en/careers/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://taxfix.de/en/careers/en/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://taxfix.de/en/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Blinkist",
       "careers_url": "https://www.blinkist.com/en/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.blinkist.com/en/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.blinkist.com/en/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.blinkist.com/en/careers/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://www.blinkist.com/en/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "SoundCloud",
       "careers_url": "https://careers.soundcloud.com/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://soundcloud.com/company/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Pitch",
       "careers_url": "https://pitch.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://pitch.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://pitch.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://pitch.com/careers/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://pitch.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Qonto",
       "careers_url": "https://qonto.com/en/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 11,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://qonto.com/en/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://qonto.com/en/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://qonto.com/en/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://qonto.com/en/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "HashiCorp",
       "careers_url": "https://www.hashicorp.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Project44",
       "careers_url": "https://www.project44.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.project44.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.project44.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.project44.com/careers/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://www.project44.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Trade Republic",
       "careers_url": "https://traderepublic.com/en-de/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://traderepublic.com/en-de/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://traderepublic.com/en-de/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://traderepublic.com/en-de/careers/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://traderepublic.com/en-de/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Back Market",
       "careers_url": "https://jobs.lever.co/backmarket",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/backmarket",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/backmarket/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/backmarket/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/backmarket?mode=json"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Jam City",
       "careers_url": "https://jobs.lever.co/jamcity",
-      "source_status": "error",
-      "urls_attempted": 5,
-      "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/jamcity/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/jamcity/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/jamcity/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 12,
+      "urls_attempted": 1,
+      "attempts": [
+        "lever-api"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Mister Spex",
       "careers_url": "https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 500 Server Error: Internal Server Error for url: https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex",
-        "HTTPError: 500 Server Error: Internal Server Error for url: https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex/jobs",
-        "HTTPError: 500 Server Error: Internal Server Error for url: https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex/careers"
-      ]
+        "HTTPError: 500 Server Error: Internal Server Error for url: https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Adidas",
       "careers_url": "https://careers.adidas-group.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 2,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.adidas-group.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.adidas-group.com/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.adidas-group.com/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.adidas-group.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Databricks",
       "careers_url": "https://www.databricks.com/company/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 40,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.databricks.com/company/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.databricks.com/company/careers/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.databricks.com/company/careers/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.databricks.com/company/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Uber",
       "careers_url": "https://www.uber.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 406 Client Error: Not Acceptable for url: https://www.uber.com/careers",
-        "HTTPError: 406 Client Error: Not Acceptable for url: https://www.uber.com/careers/jobs",
-        "HTTPError: 406 Client Error: Not Acceptable for url: https://www.uber.com/careers/careers"
-      ]
+        "HTTPError: 406 Client Error: Not Acceptable for url: https://www.uber.com/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Optiver",
       "careers_url": "https://optiver.com/working-at-optiver/career-opportunities/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 17,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.optiver.com/join-us/jobs//jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.optiver.com/join-us/jobs//careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.optiver.com/join-us/jobs//en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 8,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.optiver.com/join-us/jobs/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Miro",
       "careers_url": "https://miro.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 37,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://miro.com/careers/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://miro.com/careers/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://miro.com/careers/jobs/"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 1,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://miro.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Reaktor",
       "careers_url": "https://www.reaktor.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 14,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.reaktor.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.reaktor.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.reaktor.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.reaktor.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Picnic Technologies",
       "careers_url": "https://picnic.app/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 410 Client Error: Gone for url: https://picnic.app/careers",
-        "HTTPError: 410 Client Error: Gone for url: https://picnic.app/careers/jobs",
-        "HTTPError: 410 Client Error: Gone for url: https://picnic.app/careers/careers"
-      ]
+        "HTTPError: 410 Client Error: Gone for url: https://picnic.app/careers/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "JPMorgan Chase",
       "careers_url": "https://www.jpmorganchase.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 14,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.jpmorganchase.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.jpmorganchase.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.jpmorganchase.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.jpmorganchase.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Glovo",
       "careers_url": "https://jobs.glovoapp.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 1,
-      "errors": []
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.glovoapp.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Swisscom",
       "careers_url": "https://www.swisscom.ch/en/about/career.html",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 4,
-      "errors": []
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.swisscom.ch/en/about/career.html"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Bending Spoons",
       "careers_url": "https://bendingspoons.com/careers.html",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://bendingspoons.com/careers.html",
-        "HTTPError: 404 Client Error: Not Found for url: https://bendingspoons.com/careers.html/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://bendingspoons.com/careers.html/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://bendingspoons.com/careers.html"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "BlaBlaCar",
       "careers_url": "https://jobs.lever.co/blablacar",
-      "source_status": "error",
-      "urls_attempted": 5,
-      "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/blablacar/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/blablacar/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/blablacar/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 15,
+      "urls_attempted": 1,
+      "attempts": [
+        "lever-api"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Getaround",
       "careers_url": "https://jobs.lever.co/getaround",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/getaround",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/getaround/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://jobs.lever.co/getaround/careers"
-      ]
+        "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/getaround?mode=json"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Deezer",
       "careers_url": "https://www.deezerjobs.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 28,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.deezerjobs.com/careers"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.deezerjobs.com/en/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Shopee",
       "careers_url": "https://careers.shopee.sg/",
-      "source_status": "zero_results",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": []
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.shopee.sg/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Grab",
       "careers_url": "https://www.grab.careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.grab.careers/",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.grab.careers/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.grab.careers/careers"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.grab.careers/en/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Gojek",
       "careers_url": "https://www.gojek.io/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.gojek.io/careers",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.gojek.io/careers/jobs",
-        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.gojek.io/careers/careers"
-      ]
+        "HTTPError: 429 Client Error: Too Many Requests for url: https://www.gojek.io/careers"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Ninja Van",
       "careers_url": "https://www.ninjavan.co/en-sg/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.ninjavan.co/en-sg/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.ninjavan.co/en-sg/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.ninjavan.co/en-sg/careers/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.ninjavan.co/en-sg/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Foodpanda",
       "careers_url": "https://careers.foodpanda.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 12,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.foodpanda.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.foodpanda.com/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.foodpanda.com/en-us/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.foodpanda.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Zendesk",
       "careers_url": "https://jobs.zendesk.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 17,
-      "errors": []
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.zendesk.com/company/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Mercari",
       "careers_url": "https://careers.mercari.com/en/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 4,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.mercari.com/en/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.mercari.com/en/en/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.mercari.com/en/en-us/jobs/"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 1,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.mercari.com/en/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Toyota",
       "careers_url": "https://woven.toyota/en/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 10,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://woven.toyota/en/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://woven.toyota/en/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://woven.toyota/en/careers/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 5,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://woven.toyota/en/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Agoda",
       "careers_url": "https://careersatagoda.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "failed",
+      "crawler_verified": false,
       "discovered": 0,
+      "urls_attempted": 0,
+      "attempts": [],
       "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://careersatagoda.com/",
-        "HTTPError: 403 Client Error: Forbidden for url: https://careersatagoda.com/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://careersatagoda.com/careers"
-      ]
+        "HTTPError: 403 Client Error: Forbidden for url: https://careersatagoda.com/"
+      ],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Capital One",
       "careers_url": "https://www.capitalonecareers.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.capitalonecareers.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.capitalonecareers.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.capitalonecareers.com/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.capitalonecareers.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Block",
       "careers_url": "https://block.xyz/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 1,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://block.xyz/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://block.xyz/careers/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://block.xyz/careers/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://block.xyz/careers/jobs"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Shopify",
       "careers_url": "https://www.shopify.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 36,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.shopify.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.shopify.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.shopify.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.shopify.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Datadog",
       "careers_url": "https://careers.datadoghq.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 1,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.datadoghq.com/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.datadoghq.com/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.datadoghq.com/en/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.datadoghq.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Etsy",
       "careers_url": "https://careers.etsy.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 5,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.etsy.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.etsy.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.etsy.com/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 2,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.etsy.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "CrowdStrike",
       "careers_url": "https://www.crowdstrike.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 8,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.crowdstrike.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.crowdstrike.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.crowdstrike.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.crowdstrike.com/en-us/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Monzo",
       "careers_url": "https://monzo.com/careers",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://monzo.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://monzo.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://monzo.com/careers/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://monzo.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Airbnb",
       "careers_url": "https://careers.airbnb.com/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 2,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.airbnb.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.airbnb.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.airbnb.com/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.airbnb.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Atlassian",
       "careers_url": "https://www.atlassian.com/company/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 42,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.atlassian.com/company/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.atlassian.com/company/careers/en/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.atlassian.com/company/careers/en-us/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.atlassian.com/company/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Cloudflare",
       "careers_url": "https://www.cloudflare.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 3,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.cloudflare.com/careers/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.cloudflare.com/careers/en/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.cloudflare.com/careers/en-us/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.cloudflare.com/careers/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "WiseTech Global",
       "careers_url": "https://www.wisetechglobal.com/careers/",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 12,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.wisetechglobal.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.wisetechglobal.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.wisetechglobal.com/careers/en/jobs"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.wisetechglobal.com/careers/join-us/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "SafetyCulture",
       "careers_url": "https://www.safetyculture.com/careers/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://mitti.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://mitti.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://mitti.com/careers/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://mitti.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Goldman Sachs",
       "careers_url": "https://www.goldmansachs.com/careers",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 12,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.goldmansachs.com/careers/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.goldmansachs.com/careers/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.goldmansachs.com/careers/en/jobs"
-      ]
+      "status": "ok",
+      "crawler_verified": true,
+      "discovered": 1,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.goldmansachs.com/careers"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Deutsche Bank",
       "careers_url": "https://careers.db.com/",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.db.com/jobs",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.db.com/careers",
-        "HTTPError: 404 Client Error: Not Found for url: https://careers.db.com/en/jobs"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://careers.db.com/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "SAP",
       "careers_url": "https://www.sap.com/about/careers.html",
-      "source_status": "error",
-      "urls_attempted": 5,
+      "status": "zero_results",
+      "crawler_verified": false,
       "discovered": 0,
-      "errors": [
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.sap.com/about/careers.html",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.sap.com/about/careers.html/jobs",
-        "HTTPError: 403 Client Error: Forbidden for url: https://www.sap.com/about/careers.html/careers"
-      ]
+      "urls_attempted": 1,
+      "attempts": [
+        "https://jobs.sap.com/?locale=en_US"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     },
     {
       "company": "Siemens",
       "careers_url": "https://www.siemens.com/global/en/company/jobs.html",
-      "source_status": "ok",
-      "urls_attempted": 5,
-      "discovered": 6,
-      "errors": [
-        "HTTPError: 404 Client Error: Not Found for url: https://www.siemens.com/global/en/company/jobs.html/jobs/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.siemens.com/global/en/company/jobs.html/careers/",
-        "HTTPError: 404 Client Error: Not Found for url: https://www.siemens.com/global/en/company/jobs.html/en/jobs/"
-      ]
+      "status": "zero_results",
+      "crawler_verified": false,
+      "discovered": 0,
+      "urls_attempted": 1,
+      "attempts": [
+        "https://www.siemens.com/en-us/company/jobs/"
+      ],
+      "errors": [],
+      "checked_at": "2026-08-16T21:46:25.688452+00:00"
     }
   ]
 }
