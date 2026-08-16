@@ -5,18 +5,36 @@ candidate:
     - Software Engineer
     - Software Development Engineer
     - Member of Technical Staff
-    - Platform Engineer
-    - Distributed Systems Engineer
-    - Infrastructure Engineer
     - API Engineer
-    - Cloud Engineer
+    - Distributed Systems Engineer
     - Product Engineer
+    - Application Engineer
   excluded_roles:
     - SDET
     - QA Engineer
     - Manual Tester
     - Test Engineer
     - QA Automation Engineer
+    - DevOps Engineer
+    - Site Reliability Engineer
+    - SRE
+    - Security Engineer
+    - Data Scientist
+    - Machine Learning Engineer
+    - ML Engineer
+    - AI Engineer
+    - Research Scientist
+    - Engineering Manager
+    - Software Engineering Manager
+    - Engineering Lead
+    - Staff Engineer
+    - Staff Software Engineer
+    - Principal Engineer
+    - Principal Software Engineer
+    - Distinguished Engineer
+    - Director of Engineering
+    - Head of Engineering
+    - VP Engineering
   target_regions:
     - Australia
     - New Zealand
@@ -30,16 +48,21 @@ candidate:
     - Canada
     - United States
   skills:
-    languages: [Java, Python, JavaScript, TypeScript, C, C++, SQL]
-    backend: [Spring Boot, Node.js, Express.js, REST APIs, Microservices]
-    databases: [MySQL, PostgreSQL, MongoDB, Amazon RDS, ClickHouse]
-    distributed_data: [Kafka, Delta Lake, Time Series, Data Pipelines]
+    languages: [Java, Python, JavaScript, TypeScript, Go, Golang, C, C++, SQL]
+    backend: [Spring Boot, Node.js, Express.js, REST APIs, REST API, GraphQL, gRPC, Microservices, Backend, Server Side, API Development, Web Services]
+    databases: [MySQL, PostgreSQL, MongoDB, Amazon RDS, ClickHouse, Redis, DynamoDB]
+    distributed_data: [Kafka, Delta Lake, Time Series, Data Pipelines, Distributed Systems, Event Driven, Event-Driven]
     cloud_infra: [AWS, EC2, S3, ECR, Docker, Kubernetes, Terraform]
     observability: [Prometheus, Grafana]
     testing: [Selenium, WebdriverIO, Nightwatch]
     ai: [OpenAI API, Claude API, RAG, MCP, AI Agents, Prompt Engineering]
   preferences:
     backend_first: true
+    require_backend_content: true
+    exclude_pure_devops_sre: true
+    exclude_pure_ai_ml: true
+    exclude_management_roles: true
+    exclude_staff_principal_roles: true
     high_recall: true
     unknown_experience_allowed: true
     unknown_visa_allowed: true
