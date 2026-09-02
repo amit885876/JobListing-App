@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-01T20:59:49.865252+00:00",
+  "checked_at": "2026-09-02T04:27:52.674746+00:00",
   "sources": [
     {
       "source": "lamiiine_visa_jobs",
@@ -37,7 +37,7 @@
         "google-careers-results"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Stripe",
@@ -50,20 +50,20 @@
         "https://stripe.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Amazon",
       "careers_url": "https://www.amazon.jobs/",
       "status": "ok",
       "crawler_verified": true,
-      "discovered": 2093,
+      "discovered": 2100,
       "urls_attempted": 1,
       "attempts": [
         "amazon-search.json"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Apple",
@@ -76,7 +76,7 @@
         "https://www.apple.com/careers/us/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Meta",
@@ -89,7 +89,7 @@
       "errors": [
         "HTTPError: 400 Client Error: Bad Request for url: https://www.metacareers.com/jobs/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Microsoft",
@@ -102,7 +102,7 @@
         "microsoft-careers-search"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Bloomberg",
@@ -115,7 +115,7 @@
       "errors": [
         "HTTPError: 403 Client Error: Forbidden for url: https://www.bloomberg.com/company/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Citadel",
@@ -128,7 +128,7 @@
       "errors": [
         "HTTPError: 403 Client Error: Forbidden for url: https://www.citadel.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Spotify",
@@ -141,7 +141,7 @@
         "https://www.lifeatspotify.com/jobs"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Snap",
@@ -154,7 +154,7 @@
         "https://careers.snap.com/jobs?lang=en-US"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "ByteDance",
@@ -167,7 +167,7 @@
         "https://jobs.bytedance.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Booking.com",
@@ -180,7 +180,7 @@
         "https://careers.booking.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Mistral AI",
@@ -193,7 +193,7 @@
         "lever-api"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Yelp",
@@ -206,7 +206,7 @@
         "https://www.yelp.careers/us/en"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Vercel",
@@ -219,7 +219,7 @@
         "https://vercel.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Mobiquity",
@@ -232,7 +232,7 @@
       "errors": [
         "HTTPError: 403 Client Error: Forbidden for url: https://www.mobiquity.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Expensify",
@@ -245,7 +245,7 @@
         "https://we.are.expensify.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Free Now",
@@ -258,7 +258,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.free-now.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Marks & Spencer",
@@ -271,7 +271,7 @@
         "https://jobs.marksandspencer.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "EF Education First",
@@ -284,7 +284,7 @@
         "https://careers.ef.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Contentful",
@@ -297,7 +297,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.contentful.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Canva",
@@ -310,7 +310,7 @@
         "https://www.lifeatcanva.com/en/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Intercom",
@@ -323,7 +323,7 @@
         "https://fin.ai/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "LEGO Group",
@@ -336,7 +336,7 @@
       "errors": [
         "HTTPError: 403 Client Error: Forbidden for url: https://www.lego.com/en-us/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Plaid",
@@ -349,20 +349,20 @@
         "https://plaid.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Wise",
       "careers_url": "https://wise.jobs/",
       "status": "ok",
       "crawler_verified": true,
-      "discovered": 5,
+      "discovered": 4,
       "urls_attempted": 1,
       "attempts": [
         "https://wise.jobs/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Palantir",
@@ -375,7 +375,7 @@
         "https://www.palantir.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Algolia",
@@ -388,7 +388,7 @@
         "https://www.algolia.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Revolut",
@@ -401,7 +401,7 @@
         "https://www.revolut.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "PayFit",
@@ -414,7 +414,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/payfit?mode=json"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "SumUp",
@@ -427,7 +427,7 @@
         "https://www.sumup.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Trainline",
@@ -440,7 +440,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://www.thetrainline.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Deliveroo",
@@ -453,7 +453,7 @@
         "https://careers.deliveroo.co.uk/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Collibra",
@@ -466,7 +466,7 @@
         "https://www.collibra.com/company/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "HashiCorp",
@@ -479,7 +479,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "OneFootball",
@@ -492,7 +492,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/onefootball?mode=json"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Barclays",
@@ -505,7 +505,7 @@
         "https://search.jobs.barclays/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Skyscanner",
@@ -515,10 +515,10 @@
       "discovered": 0,
       "urls_attempted": 1,
       "attempts": [
-        "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L2pvYnMvPw==&uuid=2cf75a59-a648-11f1-ad9b-a1bd4b73e747&vid="
+        "https://www.skyscanner.net/sttc/px/captcha-v2/index.html?url=L2pvYnMvPw==&uuid=cd41138d-a686-11f1-9dcb-e8a9b5a8296f&vid="
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "GoCardless",
@@ -531,7 +531,7 @@
         "https://gocardless.com/about/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "DRW",
@@ -544,7 +544,7 @@
         "https://www.drw.com/work-at-drw"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "MoonPay",
@@ -557,7 +557,7 @@
         "lever-api"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Zalando",
@@ -570,7 +570,7 @@
         "https://jobs.zalando.com/en"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Ubisoft",
@@ -583,7 +583,7 @@
         "https://www.ubisoft.com/en-us/company/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Klarna",
@@ -596,7 +596,7 @@
         "https://www.klarna.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Delivery Hero",
@@ -609,7 +609,7 @@
         "https://careers.deliveryhero.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "N26",
@@ -622,7 +622,7 @@
         "https://n26.com/en-eu/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Wayfair",
@@ -635,7 +635,7 @@
         "https://www.aboutwayfair.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Trivago",
@@ -648,7 +648,7 @@
         "https://careers.trivago.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Babbel",
@@ -661,7 +661,7 @@
         "https://jobs.babbel.com/en"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Personio",
@@ -674,7 +674,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.personio.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "RapidAPI",
@@ -687,7 +687,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://rapidapi.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "HelloFresh",
@@ -700,7 +700,7 @@
         "https://careers.hellofresh.com/global/en"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Taxfix",
@@ -713,7 +713,7 @@
         "https://taxfix.de/en/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Blinkist",
@@ -726,7 +726,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://www.blinkist.com/en/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "SoundCloud",
@@ -739,7 +739,7 @@
         "https://soundcloud.com/company/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Pitch",
@@ -752,7 +752,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://pitch.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Qonto",
@@ -765,7 +765,7 @@
         "https://qonto.com/en/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "HashiCorp",
@@ -778,7 +778,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.hashicorp.com/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Project44",
@@ -791,7 +791,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://www.project44.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Trade Republic",
@@ -804,7 +804,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://traderepublic.com/en-de/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Back Market",
@@ -817,7 +817,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/backmarket?mode=json"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Jam City",
@@ -830,7 +830,7 @@
         "lever-api"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Mister Spex",
@@ -843,7 +843,7 @@
       "errors": [
         "HTTPError: 500 Server Error: Internal Server Error for url: https://misterspex.wd3.myworkdayjobs.com/en-US/Mister_Spex"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Adidas",
@@ -856,7 +856,7 @@
         "https://careers.adidas-group.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Databricks",
@@ -869,7 +869,7 @@
         "https://www.databricks.com/company/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Uber",
@@ -882,7 +882,7 @@
       "errors": [
         "HTTPError: 406 Client Error: Not Acceptable for url: https://www.uber.com/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Optiver",
@@ -895,7 +895,7 @@
         "https://www.optiver.com/join-us/jobs/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Miro",
@@ -908,7 +908,7 @@
         "https://miro.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Reaktor",
@@ -921,7 +921,7 @@
         "https://www.reaktor.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Picnic Technologies",
@@ -934,7 +934,7 @@
       "errors": [
         "HTTPError: 410 Client Error: Gone for url: https://picnic.app/careers/"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "JPMorgan Chase",
@@ -947,7 +947,7 @@
         "https://www.jpmorganchase.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Glovo",
@@ -960,7 +960,7 @@
         "https://careers.glovoapp.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Swisscom",
@@ -973,7 +973,7 @@
         "https://www.swisscom.ch/en/about/career.html"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Bending Spoons",
@@ -986,7 +986,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://bendingspoons.com/careers.html"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "BlaBlaCar",
@@ -999,7 +999,7 @@
         "lever-api"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Getaround",
@@ -1012,7 +1012,7 @@
       "errors": [
         "HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/getaround?mode=json"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Deezer",
@@ -1025,7 +1025,7 @@
         "https://www.deezerjobs.com/en/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Shopee",
@@ -1038,7 +1038,7 @@
         "https://careers.shopee.sg/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Grab",
@@ -1051,7 +1051,7 @@
         "https://www.grab.careers/en/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Gojek",
@@ -1064,7 +1064,7 @@
       "errors": [
         "HTTPError: 429 Client Error: Too Many Requests for url: https://www.gojek.io/careers"
       ],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Ninja Van",
@@ -1077,7 +1077,7 @@
         "https://www.ninjavan.co/en-sg/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Foodpanda",
@@ -1090,7 +1090,7 @@
         "https://careers.foodpanda.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Zendesk",
@@ -1103,7 +1103,7 @@
         "https://www.zendesk.com/company/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Mercari",
@@ -1116,7 +1116,7 @@
         "https://careers.mercari.com/en/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Toyota",
@@ -1129,20 +1129,20 @@
         "https://woven.toyota/en/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Agoda",
       "careers_url": "https://careersatagoda.com/",
       "status": "ok",
       "crawler_verified": true,
-      "discovered": 9,
+      "discovered": 11,
       "urls_attempted": 1,
       "attempts": [
         "https://careersatagoda.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Capital One",
@@ -1155,7 +1155,7 @@
         "https://www.capitalonecareers.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Block",
@@ -1168,7 +1168,7 @@
         "https://block.xyz/careers/jobs"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Shopify",
@@ -1181,7 +1181,7 @@
         "https://www.shopify.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Datadog",
@@ -1194,7 +1194,7 @@
         "https://careers.datadoghq.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Etsy",
@@ -1207,7 +1207,7 @@
         "https://careers.etsy.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "CrowdStrike",
@@ -1220,7 +1220,7 @@
         "https://www.crowdstrike.com/en-us/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Monzo",
@@ -1233,7 +1233,7 @@
         "https://monzo.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Airbnb",
@@ -1246,7 +1246,7 @@
         "https://careers.airbnb.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Atlassian",
@@ -1259,7 +1259,7 @@
         "https://www.atlassian.com/company/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Cloudflare",
@@ -1272,7 +1272,7 @@
         "https://www.cloudflare.com/careers/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "WiseTech Global",
@@ -1285,7 +1285,7 @@
         "https://www.wisetechglobal.com/careers/join-us/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "SafetyCulture",
@@ -1298,7 +1298,7 @@
         "https://mitti.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Goldman Sachs",
@@ -1311,7 +1311,7 @@
         "https://www.goldmansachs.com/careers"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Deutsche Bank",
@@ -1324,7 +1324,7 @@
         "https://careers.db.com/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "SAP",
@@ -1337,7 +1337,7 @@
         "https://jobs.sap.com/?locale=en_US"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     },
     {
       "company": "Siemens",
@@ -1350,7 +1350,7 @@
         "https://www.siemens.com/en-us/company/jobs/"
       ],
       "errors": [],
-      "checked_at": "2026-09-01T21:00:01.572631+00:00"
+      "checked_at": "2026-09-02T04:28:10.316311+00:00"
     }
   ]
 }
